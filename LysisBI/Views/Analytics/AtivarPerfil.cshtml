@@ -1,0 +1,60 @@
+﻿@model LysisBI.Models.UsuarioModel
+
+
+
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+</head>
+<body onunload="javascript:fechaJanelaSeSubmit()">
+
+
+
+
+    <b>&nbsp;Ativar Perfil de Usuário</b>
+    <br />
+
+
+    @using (Html.BeginForm("AtivarPerfil", "Analytics", FormMethod.Post))
+    {
+
+
+
+        for (int i = 0; i < Model.ListaDeUsuarios.Count(); i++)
+        {
+            @Html.CheckBoxFor(m => m.ListaDeUsuarios[i].Selected, new { @class = "checkSelecaoUnica" })
+
+            @Model.ListaDeUsuarios[i].Nome
+
+            <br />
+            @Html.HiddenFor(m => m.ListaDeUsuarios[i].Nome)
+            @Html.HiddenFor(m => m.ListaDeUsuarios[i].Isn_Pessoa)
+            @Html.HiddenFor(m => m.ListaDeUsuarios[i].Dsc_Login)
+            @Html.HiddenFor(m => m.ListaDeUsuarios[i].Dsc_Empresa)
+
+        }
+
+
+        <b><u><a href="#" class="submitForm">Ativar Perfil do Usuário</a></u></b>
+    }
+
+    <!-- Scripts     -->
+    <script src="~/scripts/funcoes.js"></script>
+
+</body>
+
+</html>
+
+
+
+</script>
+
+
+
+
+
+
+
+

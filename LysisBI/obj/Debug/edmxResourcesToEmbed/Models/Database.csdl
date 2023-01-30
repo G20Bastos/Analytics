@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelBD" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PES_PESSOA">
+    <Key>
+      <PropertyRef Name="ISN_PESSOA" />
+    </Key>
+    <Property Name="ISN_PESSOA" Type="Int32" Nullable="false" />
+    <Property Name="ISN_TIPO_PESSOA" Type="Int32" />
+    <Property Name="ISN_PAIS" Type="Int32" />
+    <Property Name="ISN_ESTADO" Type="Int32" />
+    <Property Name="ISN_EMPRESA" Type="Int32" />
+    <Property Name="ISN_PROFISSAO" Type="Int32" />
+    <Property Name="NOM_PESSOA" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOM_FANTASIA" Type="String" MaxLength="60" FixedLength="true" Unicode="false" />
+    <Property Name="DSC_ENDERECO" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_BAIRRO" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="NOM_CIDADE" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_FONE1" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_FONE2" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_CELULAR" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_FAX" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="DSC_EMAIL" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_SITE" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="NUM_CNPJ" Type="String" MaxLength="19" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_CPF" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_OAB" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="TIP_ADVOGADO" Type="Boolean" />
+    <Property Name="TIP_INATIVO" Type="Boolean" />
+    <Property Name="DSC_OBSERVACAO" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_LOGIN" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_SENHA" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="TIP_LOGIN_INATIVO" Type="Boolean" />
+    <Property Name="DAT_NASCIMENTO" Type="DateTime" Precision="3" />
+    <Property Name="DSC_ESTADO_CIVIL" Type="Int32" />
+    <Property Name="NUM_RG" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="DSC_TRATAMENTO" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_CEP" Type="String" MaxLength="9" FixedLength="true" Unicode="false" />
+    <Property Name="NOM_CONTATO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ISN_PESSOA_INDICADORA" Type="Int32" />
+    <Property Name="NOM_SIGLA" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="DSC_EMAIL2" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="COD_EXTERNO" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="ISN_NACIONALIDADE" Type="Int32" />
+    <Property Name="TIP_IMPOSTO" Type="Byte" />
+    <Property Name="TIP_NOTIFICACAO" Type="Byte" />
+    <Property Name="NUM_CGF" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="NOM_MAE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NUM_CTPS" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="SER_CTPS" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_PIS" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="DAT_ATUALIZACAO" Type="DateTime" Precision="0" />
+    <Property Name="ISN_GRUPO_PESSOA" Type="Int32" />
+    <Property Name="ISN_PESSOA_CLIENTE" Type="Int32" />
+    <Property Name="ISN_PESSOA_CREDENCIADO" Type="Int32" />
+    <Property Name="TIP_REPRESENTANTE_LEGAL" Type="Byte" />
+    <Property Name="ISN_ACAO" Type="Int32" />
+    <Property Name="TIP_PUBLICACAO" Type="Byte" />
+    <Property Name="ISN_ESTADO_OAB" Type="Int32" />
+    <Property Name="COD_VINCULO" Type="Int32" />
+    <Property Name="DAT_ULTIMO_ACESSO" Type="DateTime" Precision="0" />
+    <Property Name="ISN_PESSOA_REPRESENTANTE" Type="Int32" />
+    <Property Name="DAT_VENCIMENTO_PADRAO" Type="Byte" />
+    <Property Name="DSC_COMPLEMENTO_ENDERECO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_ORGAO_EXPEDIDOR" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ISN_TIPO_SERVICO" Type="Int32" />
+    <Property Name="ISN_FILIAL_EXTERNA" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="ISN_EMPRESA_EXTERNA" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="DAT_INICIO_SENHA" Type="DateTime" Precision="0" />
+    <Property Name="DAT_FINAL_SENHA" Type="DateTime" Precision="0" />
+    <Property Name="TIP_STATUS" Type="Byte" />
+    <Property Name="NUM_RI" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TIP_AFAZER_PROPRIO" Type="Byte" />
+    <Property Name="NUM_INSCRICAO_ESTADUAL" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_INSCRICAO_MUNICIPAL" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="ISN_CIDADE" Type="Int32" />
+    <Property Name="ISN_PERFIL" Type="Int32" />
+    <NavigationProperty Name="PES_PESSOA1" Relationship="Self.FK_PES_CLI_PES" FromRole="PES_PESSOA" ToRole="PES_PESSOA1" />
+    <NavigationProperty Name="PES_PESSOA2" Relationship="Self.FK_PES_CLI_PES" FromRole="PES_PESSOA1" ToRole="PES_PESSOA" />
+    <NavigationProperty Name="PES_PESSOA11" Relationship="Self.FK_PES_CRE_PES" FromRole="PES_PESSOA" ToRole="PES_PESSOA1" />
+    <NavigationProperty Name="PES_PESSOA3" Relationship="Self.FK_PES_CRE_PES" FromRole="PES_PESSOA1" ToRole="PES_PESSOA" />
+    <NavigationProperty Name="PES_PESSOA12" Relationship="Self.FK_PES_PES_INDICADORA" FromRole="PES_PESSOA" ToRole="PES_PESSOA1" />
+    <NavigationProperty Name="PES_PESSOA4" Relationship="Self.FK_PES_PES_INDICADORA" FromRole="PES_PESSOA1" ToRole="PES_PESSOA" />
+    <NavigationProperty Name="PES_PESSOA13" Relationship="Self.FK_PES_REP_PES" FromRole="PES_PESSOA" ToRole="PES_PESSOA1" />
+    <NavigationProperty Name="PES_PESSOA5" Relationship="Self.FK_PES_REP_PES" FromRole="PES_PESSOA1" ToRole="PES_PESSOA" />
+  </EntityType>
+  <EntityType Name="RBI_RELATORIO_BI">
+    <Key>
+      <PropertyRef Name="ISN_RELATORIO_BI" />
+      <PropertyRef Name="NOM_RELATORIO_BI" />
+      <PropertyRef Name="COD_RELATORIO_BI" />
+    </Key>
+    <Property Name="ISN_RELATORIO_BI" Type="Int32" Nullable="false" />
+    <Property Name="NOM_RELATORIO_BI" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="COD_RELATORIO_BI" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_PES_CLI_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_CLIENTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_CRE_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_CREDENCIADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_PES_INDICADORA">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_INDICADORA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_REP_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_REPRESENTANTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PES_PESSOA" EntityType="Self.PES_PESSOA" />
+    <EntitySet Name="RBI_RELATORIO_BI" EntityType="Self.RBI_RELATORIO_BI" />
+    <AssociationSet Name="FK_PES_CLI_PES" Association="Self.FK_PES_CLI_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_CRE_PES" Association="Self.FK_PES_CRE_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_PES_INDICADORA" Association="Self.FK_PES_PES_INDICADORA">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_REP_PES" Association="Self.FK_PES_REP_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

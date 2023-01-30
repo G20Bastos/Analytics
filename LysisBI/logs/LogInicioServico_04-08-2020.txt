@@ -1,0 +1,9 @@
+Inicio da operação
+
+
+Data/hora atual: 04/08/2020 17:16:08
+Intervalo parametrizado para atividade do serviço: 04/08/2020 08:00:00 à 04/08/2020 18:00:00
+Acesso realizado pelo usuário: alfredo da empresa Tech Advocacia
+
+Fim da operação
+__________________________________________________

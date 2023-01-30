@@ -1,0 +1,493 @@
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\csc.exe
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\vbc.exe
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\VBCSCompiler.exe
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\PowerBIEmbedded_AppOwnsData.dll.config
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\PowerBIEmbedded_AppOwnsData.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\PowerBIEmbedded_AppOwnsData.pdb
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Antlr3.Runtime.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.SqlServer.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.PowerBI.Api.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Newtonsoft.Json.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Owin.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.Helpers.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.Mvc.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.Optimization.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.Razor.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\WebGrease.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Newtonsoft.Json.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.Helpers.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.Mvc.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.Optimization.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.Razor.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Antlr3.Runtime.pdb
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.SqlServer.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\obj\Debug\LysisBI.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\obj\Debug\PowerBIEmbedded_AppOwnsData.dll
+C:\Users\Gabriel\source\repos\App Owns Data\PowerBIEmbedded_AppOwnsData\obj\Debug\PowerBIEmbedded_AppOwnsData.pdb
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\csc.exe
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\vbc.exe
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\VBCSCompiler.exe
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Antlr3.Runtime.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.SqlServer.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.PowerBI.Api.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Newtonsoft.Json.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Owin.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.Helpers.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.Mvc.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.Optimization.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.Razor.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\WebGrease.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Newtonsoft.Json.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.Helpers.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.Mvc.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.Optimization.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.Razor.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Antlr3.Runtime.pdb
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.SqlServer.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\obj\Debug\LysisBI.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\csc.exe
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\vbc.exe
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\VBCSCompiler.exe
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Antlr3.Runtime.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.SqlServer.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.PowerBI.Api.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Newtonsoft.Json.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Owin.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.Helpers.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.Mvc.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.Optimization.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.Razor.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\WebGrease.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Newtonsoft.Json.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.Helpers.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.Mvc.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.Optimization.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.Razor.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Antlr3.Runtime.pdb
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\EntityFramework.SqlServer.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\obj\Debug\LysisBI.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\LysisBI.dll.config
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\LysisBI.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\LysisBI.pdb
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\obj\Debug\LysisBI.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\obj\Debug\LysisBI.pdb
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI-Modelo\PowerBIEmbedded_AppOwnsData\obj\Debug\LysisBI.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\LysisBI.dll.config
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\LysisBI.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\LysisBI.pdb
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\obj\Debug\LysisBI.dll
+C:\Users\Gabriel\source\repos\LysisBI\PowerBIEmbedded_AppOwnsData\obj\Debug\LysisBI.pdb
+D:\Documents\LysisBI\LysisBI\bin\roslyn\csc.exe
+D:\Documents\LysisBI\LysisBI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\LysisBI\LysisBI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\LysisBI\LysisBI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\LysisBI\LysisBI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\LysisBI\LysisBI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\LysisBI\LysisBI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\LysisBI\LysisBI\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\LysisBI\LysisBI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\LysisBI\LysisBI\bin\roslyn\vbc.exe
+D:\Documents\LysisBI\LysisBI\bin\roslyn\VBCSCompiler.exe
+D:\Documents\LysisBI\LysisBI\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\LysisBI\LysisBI\bin\LysisBI.dll.config
+D:\Documents\LysisBI\LysisBI\bin\LysisBI.dll
+D:\Documents\LysisBI\LysisBI\bin\LysisBI.pdb
+D:\Documents\LysisBI\LysisBI\bin\Antlr3.Runtime.dll
+D:\Documents\LysisBI\LysisBI\bin\EntityFramework.dll
+D:\Documents\LysisBI\LysisBI\bin\EntityFramework.SqlServer.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.PowerBI.Api.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Rest.ClientRuntime.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\LysisBI\LysisBI\bin\Newtonsoft.Json.dll
+D:\Documents\LysisBI\LysisBI\bin\Owin.dll
+D:\Documents\LysisBI\LysisBI\bin\System.Web.Helpers.dll
+D:\Documents\LysisBI\LysisBI\bin\System.Web.Mvc.dll
+D:\Documents\LysisBI\LysisBI\bin\System.Web.Optimization.dll
+D:\Documents\LysisBI\LysisBI\bin\System.Web.Razor.dll
+D:\Documents\LysisBI\LysisBI\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\LysisBI\LysisBI\bin\System.Web.WebPages.dll
+D:\Documents\LysisBI\LysisBI\bin\System.Web.WebPages.Razor.dll
+D:\Documents\LysisBI\LysisBI\bin\WebGrease.dll
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Rest.ClientRuntime.xml
+D:\Documents\LysisBI\LysisBI\bin\Newtonsoft.Json.xml
+D:\Documents\LysisBI\LysisBI\bin\System.Web.Helpers.xml
+D:\Documents\LysisBI\LysisBI\bin\System.Web.Mvc.xml
+D:\Documents\LysisBI\LysisBI\bin\System.Web.Optimization.xml
+D:\Documents\LysisBI\LysisBI\bin\System.Web.Razor.xml
+D:\Documents\LysisBI\LysisBI\bin\System.Web.WebPages.xml
+D:\Documents\LysisBI\LysisBI\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\LysisBI\LysisBI\bin\System.Web.WebPages.Razor.xml
+D:\Documents\LysisBI\LysisBI\bin\Antlr3.Runtime.pdb
+D:\Documents\LysisBI\LysisBI\bin\EntityFramework.xml
+D:\Documents\LysisBI\LysisBI\bin\EntityFramework.SqlServer.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents\LysisBI\LysisBI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents\LysisBI\LysisBI\bin\pt-br\System.Web.Helpers.resources.dll
+D:\Documents\LysisBI\LysisBI\bin\pt-br\System.Web.Mvc.resources.dll
+D:\Documents\LysisBI\LysisBI\bin\pt-br\System.Web.Razor.resources.dll
+D:\Documents\LysisBI\LysisBI\bin\pt-br\System.Web.WebPages.resources.dll
+D:\Documents\LysisBI\LysisBI\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\Documents\LysisBI\LysisBI\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\Documents\LysisBI\LysisBI\obj\Debug\LysisBI.csproj.CoreCompileInputs.cache
+D:\Documents\LysisBI\LysisBI\obj\Debug\LysisBI.csproj.CopyComplete
+D:\Documents\LysisBI\LysisBI\obj\Debug\LysisBI.dll
+D:\Documents\LysisBI\LysisBI\obj\Debug\LysisBI.pdb
+D:\Documents\LysisBI\LysisBI\obj\Debug\LysisBI.csprojAssemblyReference.cache
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\csc.exe
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\vbc.exe
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\LysisBI.dll.config
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\LysisBI.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\LysisBI.pdb
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Antlr3.Runtime.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\EntityFramework.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\EntityFramework.SqlServer.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.PowerBI.Api.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Newtonsoft.Json.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Owin.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.Helpers.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.Mvc.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.Optimization.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.Razor.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\WebGrease.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\EntityFramework.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\EntityFramework.SqlServer.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Newtonsoft.Json.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.Helpers.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.Mvc.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.Optimization.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.Razor.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Antlr3.Runtime.pdb
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\obj\Debug\LysisBI.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\obj\Debug\LysisBI.csproj.CopyComplete
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\obj\Debug\LysisBI.dll
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\obj\Debug\LysisBI.pdb
+C:\Users\Gabriel\source\repos\LysisBI\LysisBI\obj\Debug\LysisBI.csprojAssemblyReference.cache
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\csc.exe
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\vbc.exe
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\VBCSCompiler.exe
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\LysisBI.dll.config
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\LysisBI.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\LysisBI.pdb
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Antlr3.Runtime.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\EntityFramework.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\EntityFramework.SqlServer.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.PowerBI.Api.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Newtonsoft.Json.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Owin.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.Helpers.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.Mvc.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.Optimization.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.Razor.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.Razor.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\WebGrease.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\EntityFramework.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\EntityFramework.SqlServer.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Newtonsoft.Json.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.Helpers.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.Mvc.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.Optimization.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.Razor.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\System.Web.WebPages.Razor.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Antlr3.Runtime.pdb
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\obj\Debug\LysisBI.csproj.CoreCompileInputs.cache
+C:\Users\recob\source\repos\LysisBI\LysisBI\obj\Debug\LysisBI.csproj.CopyComplete
+C:\Users\recob\source\repos\LysisBI\LysisBI\obj\Debug\LysisBI.dll
+C:\Users\recob\source\repos\LysisBI\LysisBI\obj\Debug\LysisBI.pdb
+C:\Users\recob\source\repos\LysisBI\LysisBI\obj\Debug\LysisBI.csprojAssemblyReference.cache

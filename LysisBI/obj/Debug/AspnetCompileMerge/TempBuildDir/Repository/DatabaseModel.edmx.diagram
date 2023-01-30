@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="193fad5faaae4293a734e79a87722c01" Name="Diagram1" ZoomLevel="86" ShowGrid="true">
+        <EntityTypeShape EntityType="Model1.EMP_EMPRESA" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.FUN_FUNCAO" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.PES_PESSOA" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.RBI_RELATORIO_BI" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.VPP_PARTE_PROCESSO" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Model1.FK_EMP_MIT" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.FK_EMP_PES" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.FK_PES_EMP" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.FK_PES_CLI_PES" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.FK_PES_CRE_PES" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.FK_PES_PES_INDICADORA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.FK_PES_REP_PES" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.ACE_ACESSO" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Model1.PRO_PROCESSO" Width="1.5" PointX="7.5" PointY="6.25" />
+        <AssociationConnector Association="Model1.FK_EMP_PRO" />
+        <AssociationConnector Association="Model1.FK_PES_CLI_PRO" />
+        <AssociationConnector Association="Model1.FK_PES_CRE_PRO" />
+        <AssociationConnector Association="Model1.FK_PES_PRO_PRI" />
+        <AssociationConnector Association="Model1.FK_PRO_PRO_PAI" />
+        <EntityTypeShape EntityType="Model1.ACE_ACESSOP" Width="1.5" PointX="11.625" PointY="23.375" />
+        <EntityTypeShape EntityType="Model1.GPE_GRUPO_PESSOA" Width="1.5" PointX="7.5" PointY="22.625" />
+        <AssociationConnector Association="Model1.FK_EMP_GPE" />
+        <AssociationConnector Association="Model1.FK_GPE_PES" />
+        <EntityTypeShape EntityType="Model1.DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS" Width="1.5" PointX="12.625" PointY="0.875" />
+        <EntityTypeShape EntityType="Model1.PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS" Width="1.5" PointX="10.375" PointY="1" />
+        <AssociationConnector Association="Model1.FK_PDA_DPA" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

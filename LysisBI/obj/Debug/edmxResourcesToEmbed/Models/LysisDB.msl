@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities2">
+    <EntitySetMapping Name="PES_PESSOA">
+      <EntityTypeMapping TypeName="Model.PES_PESSOA">
+        <MappingFragment StoreEntitySet="PES_PESSOA">
+          <ScalarProperty Name="ISN_PESSOA" ColumnName="ISN_PESSOA" />
+          <ScalarProperty Name="ISN_TIPO_PESSOA" ColumnName="ISN_TIPO_PESSOA" />
+          <ScalarProperty Name="ISN_PAIS" ColumnName="ISN_PAIS" />
+          <ScalarProperty Name="ISN_ESTADO" ColumnName="ISN_ESTADO" />
+          <ScalarProperty Name="ISN_EMPRESA" ColumnName="ISN_EMPRESA" />
+          <ScalarProperty Name="ISN_PROFISSAO" ColumnName="ISN_PROFISSAO" />
+          <ScalarProperty Name="NOM_PESSOA" ColumnName="NOM_PESSOA" />
+          <ScalarProperty Name="NOM_FANTASIA" ColumnName="NOM_FANTASIA" />
+          <ScalarProperty Name="DSC_ENDERECO" ColumnName="DSC_ENDERECO" />
+          <ScalarProperty Name="DSC_BAIRRO" ColumnName="DSC_BAIRRO" />
+          <ScalarProperty Name="NOM_CIDADE" ColumnName="NOM_CIDADE" />
+          <ScalarProperty Name="NUM_FONE1" ColumnName="NUM_FONE1" />
+          <ScalarProperty Name="NUM_FONE2" ColumnName="NUM_FONE2" />
+          <ScalarProperty Name="NUM_CELULAR" ColumnName="NUM_CELULAR" />
+          <ScalarProperty Name="NUM_FAX" ColumnName="NUM_FAX" />
+          <ScalarProperty Name="DSC_EMAIL" ColumnName="DSC_EMAIL" />
+          <ScalarProperty Name="DSC_SITE" ColumnName="DSC_SITE" />
+          <ScalarProperty Name="NUM_CNPJ" ColumnName="NUM_CNPJ" />
+          <ScalarProperty Name="NUM_CPF" ColumnName="NUM_CPF" />
+          <ScalarProperty Name="NUM_OAB" ColumnName="NUM_OAB" />
+          <ScalarProperty Name="TIP_ADVOGADO" ColumnName="TIP_ADVOGADO" />
+          <ScalarProperty Name="TIP_INATIVO" ColumnName="TIP_INATIVO" />
+          <ScalarProperty Name="DSC_OBSERVACAO" ColumnName="DSC_OBSERVACAO" />
+          <ScalarProperty Name="DSC_LOGIN" ColumnName="DSC_LOGIN" />
+          <ScalarProperty Name="DSC_SENHA" ColumnName="DSC_SENHA" />
+          <ScalarProperty Name="TIP_LOGIN_INATIVO" ColumnName="TIP_LOGIN_INATIVO" />
+          <ScalarProperty Name="DAT_NASCIMENTO" ColumnName="DAT_NASCIMENTO" />
+          <ScalarProperty Name="DSC_ESTADO_CIVIL" ColumnName="DSC_ESTADO_CIVIL" />
+          <ScalarProperty Name="NUM_RG" ColumnName="NUM_RG" />
+          <ScalarProperty Name="DSC_TRATAMENTO" ColumnName="DSC_TRATAMENTO" />
+          <ScalarProperty Name="NUM_CEP" ColumnName="NUM_CEP" />
+          <ScalarProperty Name="NOM_CONTATO" ColumnName="NOM_CONTATO" />
+          <ScalarProperty Name="ISN_PESSOA_INDICADORA" ColumnName="ISN_PESSOA_INDICADORA" />
+          <ScalarProperty Name="NOM_SIGLA" ColumnName="NOM_SIGLA" />
+          <ScalarProperty Name="DSC_EMAIL2" ColumnName="DSC_EMAIL2" />
+          <ScalarProperty Name="COD_EXTERNO" ColumnName="COD_EXTERNO" />
+          <ScalarProperty Name="ISN_NACIONALIDADE" ColumnName="ISN_NACIONALIDADE" />
+          <ScalarProperty Name="TIP_IMPOSTO" ColumnName="TIP_IMPOSTO" />
+          <ScalarProperty Name="TIP_NOTIFICACAO" ColumnName="TIP_NOTIFICACAO" />
+          <ScalarProperty Name="NUM_CGF" ColumnName="NUM_CGF" />
+          <ScalarProperty Name="NOM_MAE" ColumnName="NOM_MAE" />
+          <ScalarProperty Name="NUM_CTPS" ColumnName="NUM_CTPS" />
+          <ScalarProperty Name="SER_CTPS" ColumnName="SER_CTPS" />
+          <ScalarProperty Name="NUM_PIS" ColumnName="NUM_PIS" />
+          <ScalarProperty Name="DAT_ATUALIZACAO" ColumnName="DAT_ATUALIZACAO" />
+          <ScalarProperty Name="ISN_GRUPO_PESSOA" ColumnName="ISN_GRUPO_PESSOA" />
+          <ScalarProperty Name="ISN_PESSOA_CLIENTE" ColumnName="ISN_PESSOA_CLIENTE" />
+          <ScalarProperty Name="ISN_PESSOA_CREDENCIADO" ColumnName="ISN_PESSOA_CREDENCIADO" />
+          <ScalarProperty Name="TIP_REPRESENTANTE_LEGAL" ColumnName="TIP_REPRESENTANTE_LEGAL" />
+          <ScalarProperty Name="ISN_ACAO" ColumnName="ISN_ACAO" />
+          <ScalarProperty Name="TIP_PUBLICACAO" ColumnName="TIP_PUBLICACAO" />
+          <ScalarProperty Name="ISN_ESTADO_OAB" ColumnName="ISN_ESTADO_OAB" />
+          <ScalarProperty Name="COD_VINCULO" ColumnName="COD_VINCULO" />
+          <ScalarProperty Name="DAT_ULTIMO_ACESSO" ColumnName="DAT_ULTIMO_ACESSO" />
+          <ScalarProperty Name="ISN_PESSOA_REPRESENTANTE" ColumnName="ISN_PESSOA_REPRESENTANTE" />
+          <ScalarProperty Name="DAT_VENCIMENTO_PADRAO" ColumnName="DAT_VENCIMENTO_PADRAO" />
+          <ScalarProperty Name="DSC_COMPLEMENTO_ENDERECO" ColumnName="DSC_COMPLEMENTO_ENDERECO" />
+          <ScalarProperty Name="DSC_ORGAO_EXPEDIDOR" ColumnName="DSC_ORGAO_EXPEDIDOR" />
+          <ScalarProperty Name="ISN_TIPO_SERVICO" ColumnName="ISN_TIPO_SERVICO" />
+          <ScalarProperty Name="ISN_FILIAL_EXTERNA" ColumnName="ISN_FILIAL_EXTERNA" />
+          <ScalarProperty Name="ISN_EMPRESA_EXTERNA" ColumnName="ISN_EMPRESA_EXTERNA" />
+          <ScalarProperty Name="DAT_INICIO_SENHA" ColumnName="DAT_INICIO_SENHA" />
+          <ScalarProperty Name="DAT_FINAL_SENHA" ColumnName="DAT_FINAL_SENHA" />
+          <ScalarProperty Name="TIP_STATUS" ColumnName="TIP_STATUS" />
+          <ScalarProperty Name="NUM_RI" ColumnName="NUM_RI" />
+          <ScalarProperty Name="TIP_AFAZER_PROPRIO" ColumnName="TIP_AFAZER_PROPRIO" />
+          <ScalarProperty Name="NUM_INSCRICAO_ESTADUAL" ColumnName="NUM_INSCRICAO_ESTADUAL" />
+          <ScalarProperty Name="NUM_INSCRICAO_MUNICIPAL" ColumnName="NUM_INSCRICAO_MUNICIPAL" />
+          <ScalarProperty Name="ISN_CIDADE" ColumnName="ISN_CIDADE" />
+          <ScalarProperty Name="ISN_PERFIL" ColumnName="ISN_PERFIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RBI_RELATORIO_BI">
+      <EntityTypeMapping TypeName="Model.RBI_RELATORIO_BI">
+        <MappingFragment StoreEntitySet="RBI_RELATORIO_BI">
+          <ScalarProperty Name="ISN_RELATORIO_BI" ColumnName="ISN_RELATORIO_BI" />
+          <ScalarProperty Name="NOM_RELATORIO_BI" ColumnName="NOM_RELATORIO_BI" />
+          <ScalarProperty Name="COD_RELATORIO_BI" ColumnName="COD_RELATORIO_BI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

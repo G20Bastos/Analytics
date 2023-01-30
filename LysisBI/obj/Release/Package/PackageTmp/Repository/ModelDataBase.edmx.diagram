@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0cc2f2090d5640289300d514cfebe28a" Name="Diagram1" ZoomLevel="17">
+        <EntityTypeShape EntityType="Model.PES_PESSOA" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RBI_RELATORIO_BI" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_PES_CLI_PES" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PES_CRE_PES" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PES_PES_INDICADORA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PES_REP_PES" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

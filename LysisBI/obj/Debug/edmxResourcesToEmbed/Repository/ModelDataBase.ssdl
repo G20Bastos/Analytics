@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="PES_PESSOA">
+    <Key>
+      <PropertyRef Name="ISN_PESSOA" />
+    </Key>
+    <Property Name="ISN_PESSOA" Type="int" Nullable="false" />
+    <Property Name="ISN_TIPO_PESSOA" Type="int" />
+    <Property Name="ISN_PAIS" Type="int" />
+    <Property Name="ISN_ESTADO" Type="int" />
+    <Property Name="ISN_EMPRESA" Type="int" />
+    <Property Name="ISN_PROFISSAO" Type="int" />
+    <Property Name="NOM_PESSOA" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="NOM_FANTASIA" Type="char" MaxLength="60" />
+    <Property Name="DSC_ENDERECO" Type="varchar" MaxLength="200" />
+    <Property Name="DSC_BAIRRO" Type="char" MaxLength="25" />
+    <Property Name="NOM_CIDADE" Type="char" MaxLength="25" />
+    <Property Name="NUM_FONE1" Type="char" MaxLength="15" />
+    <Property Name="NUM_FONE2" Type="char" MaxLength="15" />
+    <Property Name="NUM_CELULAR" Type="char" MaxLength="15" />
+    <Property Name="NUM_FAX" Type="char" MaxLength="15" />
+    <Property Name="DSC_EMAIL" Type="varchar" MaxLength="60" />
+    <Property Name="DSC_SITE" Type="varchar" MaxLength="60" />
+    <Property Name="NUM_CNPJ" Type="char" MaxLength="19" />
+    <Property Name="NUM_CPF" Type="char" MaxLength="14" />
+    <Property Name="NUM_OAB" Type="char" MaxLength="15" />
+    <Property Name="TIP_ADVOGADO" Type="bit" />
+    <Property Name="TIP_INATIVO" Type="bit" />
+    <Property Name="DSC_OBSERVACAO" Type="varchar" MaxLength="8000" />
+    <Property Name="DSC_LOGIN" Type="varchar" MaxLength="60" />
+    <Property Name="DSC_SENHA" Type="char" MaxLength="25" />
+    <Property Name="TIP_LOGIN_INATIVO" Type="bit" />
+    <Property Name="DAT_NASCIMENTO" Type="datetime" />
+    <Property Name="DSC_ESTADO_CIVIL" Type="int" />
+    <Property Name="NUM_RG" Type="char" MaxLength="30" />
+    <Property Name="DSC_TRATAMENTO" Type="char" MaxLength="25" />
+    <Property Name="NUM_CEP" Type="char" MaxLength="9" />
+    <Property Name="NOM_CONTATO" Type="varchar" MaxLength="100" />
+    <Property Name="ISN_PESSOA_INDICADORA" Type="int" />
+    <Property Name="NOM_SIGLA" Type="char" MaxLength="10" />
+    <Property Name="DSC_EMAIL2" Type="varchar" MaxLength="60" />
+    <Property Name="COD_EXTERNO" Type="char" MaxLength="30" />
+    <Property Name="ISN_NACIONALIDADE" Type="int" />
+    <Property Name="TIP_IMPOSTO" Type="tinyint" />
+    <Property Name="TIP_NOTIFICACAO" Type="tinyint" />
+    <Property Name="NUM_CGF" Type="char" MaxLength="15" />
+    <Property Name="NOM_MAE" Type="varchar" MaxLength="100" />
+    <Property Name="NUM_CTPS" Type="char" MaxLength="30" />
+    <Property Name="SER_CTPS" Type="char" MaxLength="15" />
+    <Property Name="NUM_PIS" Type="char" MaxLength="15" />
+    <Property Name="DAT_ATUALIZACAO" Type="smalldatetime" />
+    <Property Name="ISN_GRUPO_PESSOA" Type="int" />
+    <Property Name="ISN_PESSOA_CLIENTE" Type="int" />
+    <Property Name="ISN_PESSOA_CREDENCIADO" Type="int" />
+    <Property Name="TIP_REPRESENTANTE_LEGAL" Type="tinyint" />
+    <Property Name="ISN_ACAO" Type="int" />
+    <Property Name="TIP_PUBLICACAO" Type="tinyint" />
+    <Property Name="ISN_ESTADO_OAB" Type="int" />
+    <Property Name="COD_VINCULO" Type="int" />
+    <Property Name="DAT_ULTIMO_ACESSO" Type="smalldatetime" />
+    <Property Name="ISN_PESSOA_REPRESENTANTE" Type="int" />
+    <Property Name="DAT_VENCIMENTO_PADRAO" Type="tinyint" />
+    <Property Name="DSC_COMPLEMENTO_ENDERECO" Type="varchar" MaxLength="100" />
+    <Property Name="DSC_ORGAO_EXPEDIDOR" Type="varchar" MaxLength="100" />
+    <Property Name="ISN_TIPO_SERVICO" Type="int" />
+    <Property Name="ISN_FILIAL_EXTERNA" Type="char" MaxLength="10" />
+    <Property Name="ISN_EMPRESA_EXTERNA" Type="char" MaxLength="10" />
+    <Property Name="DAT_INICIO_SENHA" Type="smalldatetime" />
+    <Property Name="DAT_FINAL_SENHA" Type="smalldatetime" />
+    <Property Name="TIP_STATUS" Type="tinyint" />
+    <Property Name="NUM_RI" Type="varchar" MaxLength="30" />
+    <Property Name="TIP_AFAZER_PROPRIO" Type="tinyint" />
+    <Property Name="NUM_INSCRICAO_ESTADUAL" Type="char" MaxLength="20" />
+    <Property Name="NUM_INSCRICAO_MUNICIPAL" Type="char" MaxLength="20" />
+    <Property Name="ISN_CIDADE" Type="int" />
+    <Property Name="ISN_PERFIL" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'LYSIS-DEV.dbo.RBI_RELATORIO_BI' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="RBI_RELATORIO_BI">
+    <Key>
+      <PropertyRef Name="ISN_RELATORIO_BI" />
+      <PropertyRef Name="NOM_RELATORIO_BI" />
+      <PropertyRef Name="COD_RELATORIO_BI" />
+      <PropertyRef Name="TAB_RELATORIO_BI" />
+      <PropertyRef Name="COL_RELATORIO_BI" />
+      <PropertyRef Name="OP_LOGICO_RELATORIO_BI" />
+    </Key>
+    <Property Name="ISN_RELATORIO_BI" Type="int" Nullable="false" />
+    <Property Name="NOM_RELATORIO_BI" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="COD_RELATORIO_BI" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="TAB_RELATORIO_BI" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="COL_RELATORIO_BI" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="OP_LOGICO_RELATORIO_BI" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_PES_CLI_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_CLIENTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_CRE_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_CREDENCIADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_PES_INDICADORA">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_INDICADORA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_REP_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_REPRESENTANTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="PES_PESSOA" EntityType="Self.PES_PESSOA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RBI_RELATORIO_BI" EntityType="Self.RBI_RELATORIO_BI" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [RBI_RELATORIO_BI].[ISN_RELATORIO_BI] AS [ISN_RELATORIO_BI], 
+    [RBI_RELATORIO_BI].[NOM_RELATORIO_BI] AS [NOM_RELATORIO_BI], 
+    [RBI_RELATORIO_BI].[COD_RELATORIO_BI] AS [COD_RELATORIO_BI], 
+    [RBI_RELATORIO_BI].[TAB_RELATORIO_BI] AS [TAB_RELATORIO_BI], 
+    [RBI_RELATORIO_BI].[COL_RELATORIO_BI] AS [COL_RELATORIO_BI], 
+    [RBI_RELATORIO_BI].[OP_LOGICO_RELATORIO_BI] AS [OP_LOGICO_RELATORIO_BI]
+    FROM [dbo].[RBI_RELATORIO_BI] AS [RBI_RELATORIO_BI]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_PES_CLI_PES" Association="Self.FK_PES_CLI_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_CRE_PES" Association="Self.FK_PES_CRE_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_PES_INDICADORA" Association="Self.FK_PES_PES_INDICADORA">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_REP_PES" Association="Self.FK_PES_REP_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

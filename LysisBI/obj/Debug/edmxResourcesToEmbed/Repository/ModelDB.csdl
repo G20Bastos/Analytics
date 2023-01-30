@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PES_PESSOA">
+    <Key>
+      <PropertyRef Name="ISN_PESSOA" />
+    </Key>
+    <Property Name="ISN_PESSOA" Type="Int32" Nullable="false" />
+    <Property Name="ISN_TIPO_PESSOA" Type="Int32" />
+    <Property Name="ISN_PAIS" Type="Int32" />
+    <Property Name="ISN_ESTADO" Type="Int32" />
+    <Property Name="ISN_EMPRESA" Type="Int32" />
+    <Property Name="ISN_PROFISSAO" Type="Int32" />
+    <Property Name="NOM_PESSOA" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOM_FANTASIA" Type="String" MaxLength="60" FixedLength="true" Unicode="false" />
+    <Property Name="DSC_ENDERECO" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_BAIRRO" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="NOM_CIDADE" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_FONE1" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_FONE2" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_CELULAR" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_FAX" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="DSC_EMAIL" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_SITE" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="NUM_CNPJ" Type="String" MaxLength="19" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_CPF" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_OAB" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="TIP_ADVOGADO" Type="Boolean" />
+    <Property Name="TIP_INATIVO" Type="Boolean" />
+    <Property Name="DSC_OBSERVACAO" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_LOGIN" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_SENHA" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="TIP_LOGIN_INATIVO" Type="Boolean" />
+    <Property Name="DAT_NASCIMENTO" Type="DateTime" Precision="3" />
+    <Property Name="DSC_ESTADO_CIVIL" Type="Int32" />
+    <Property Name="NUM_RG" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="DSC_TRATAMENTO" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_CEP" Type="String" MaxLength="9" FixedLength="true" Unicode="false" />
+    <Property Name="NOM_CONTATO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ISN_PESSOA_INDICADORA" Type="Int32" />
+    <Property Name="NOM_SIGLA" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="DSC_EMAIL2" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="COD_EXTERNO" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="ISN_NACIONALIDADE" Type="Int32" />
+    <Property Name="TIP_IMPOSTO" Type="Byte" />
+    <Property Name="TIP_NOTIFICACAO" Type="Byte" />
+    <Property Name="NUM_CGF" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="NOM_MAE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NUM_CTPS" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="SER_CTPS" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_PIS" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="DAT_ATUALIZACAO" Type="DateTime" Precision="0" />
+    <Property Name="ISN_GRUPO_PESSOA" Type="Int32" />
+    <Property Name="ISN_PESSOA_CLIENTE" Type="Int32" />
+    <Property Name="ISN_PESSOA_CREDENCIADO" Type="Int32" />
+    <Property Name="TIP_REPRESENTANTE_LEGAL" Type="Byte" />
+    <Property Name="ISN_ACAO" Type="Int32" />
+    <Property Name="TIP_PUBLICACAO" Type="Byte" />
+    <Property Name="ISN_ESTADO_OAB" Type="Int32" />
+    <Property Name="COD_VINCULO" Type="Int32" />
+    <Property Name="DAT_ULTIMO_ACESSO" Type="DateTime" Precision="0" />
+    <Property Name="ISN_PESSOA_REPRESENTANTE" Type="Int32" />
+    <Property Name="DAT_VENCIMENTO_PADRAO" Type="Byte" />
+    <Property Name="DSC_COMPLEMENTO_ENDERECO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_ORGAO_EXPEDIDOR" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ISN_TIPO_SERVICO" Type="Int32" />
+    <Property Name="ISN_FILIAL_EXTERNA" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="ISN_EMPRESA_EXTERNA" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="DAT_INICIO_SENHA" Type="DateTime" Precision="0" />
+    <Property Name="DAT_FINAL_SENHA" Type="DateTime" Precision="0" />
+    <Property Name="TIP_STATUS" Type="Byte" />
+    <Property Name="NUM_RI" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TIP_AFAZER_PROPRIO" Type="Byte" />
+    <Property Name="NUM_INSCRICAO_ESTADUAL" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_INSCRICAO_MUNICIPAL" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="ISN_CIDADE" Type="Int32" />
+    <Property Name="ISN_PERFIL" Type="Int32" />
+    <NavigationProperty Name="PES_PESSOA1" Relationship="Self.FK_PES_CLI_PES" FromRole="PES_PESSOA" ToRole="PES_PESSOA1" />
+    <NavigationProperty Name="PES_PESSOA2" Relationship="Self.FK_PES_CLI_PES" FromRole="PES_PESSOA1" ToRole="PES_PESSOA" />
+    <NavigationProperty Name="PRO_PROCESSO" Relationship="Self.FK_PES_CLI_PRO" FromRole="PES_PESSOA" ToRole="PRO_PROCESSO" />
+    <NavigationProperty Name="PES_PESSOA11" Relationship="Self.FK_PES_CRE_PES" FromRole="PES_PESSOA" ToRole="PES_PESSOA1" />
+    <NavigationProperty Name="PES_PESSOA3" Relationship="Self.FK_PES_CRE_PES" FromRole="PES_PESSOA1" ToRole="PES_PESSOA" />
+    <NavigationProperty Name="PRO_PROCESSO1" Relationship="Self.FK_PES_CRE_PRO" FromRole="PES_PESSOA" ToRole="PRO_PROCESSO" />
+    <NavigationProperty Name="PES_PESSOA12" Relationship="Self.FK_PES_PES_INDICADORA" FromRole="PES_PESSOA" ToRole="PES_PESSOA1" />
+    <NavigationProperty Name="PES_PESSOA4" Relationship="Self.FK_PES_PES_INDICADORA" FromRole="PES_PESSOA1" ToRole="PES_PESSOA" />
+    <NavigationProperty Name="PRO_PROCESSO2" Relationship="Self.FK_PES_PRO_PRI" FromRole="PES_PESSOA" ToRole="PRO_PROCESSO" />
+    <NavigationProperty Name="PES_PESSOA13" Relationship="Self.FK_PES_REP_PES" FromRole="PES_PESSOA" ToRole="PES_PESSOA1" />
+    <NavigationProperty Name="PES_PESSOA5" Relationship="Self.FK_PES_REP_PES" FromRole="PES_PESSOA1" ToRole="PES_PESSOA" />
+    <NavigationProperty Name="EMP_EMPRESA" Relationship="Model.FK_EMP_PES" FromRole="PES_PESSOA" ToRole="EMP_EMPRESA" />
+    <NavigationProperty Name="EMP_EMPRESA1" Relationship="Model.FK_PES_EMP" FromRole="PES_PESSOA" ToRole="EMP_EMPRESA" />
+    <NavigationProperty Name="ACE_ACESSO" Relationship="Model.FK_PES_ACE" FromRole="PES_PESSOA" ToRole="ACE_ACESSO" />
+    <NavigationProperty Name="FUN_FUNCAO" Relationship="Model.ACE_ACESSO1" FromRole="PES_PESSOA" ToRole="FUN_FUNCAO" />
+  </EntityType>
+  <EntityType Name="PRO_PROCESSO">
+    <Key>
+      <PropertyRef Name="ISN_PROCESSO" />
+    </Key>
+    <Property Name="ISN_PROCESSO" Type="Int32" Nullable="false" />
+    <Property Name="ISN_ACAO" Type="Int32" />
+    <Property Name="ISN_PROBABILIDADE" Type="Int32" />
+    <Property Name="ISN_EMPRESA" Type="Int32" Nullable="false" />
+    <Property Name="ISN_RITO" Type="Int32" />
+    <Property Name="ISN_NATUREZA" Type="Int32" />
+    <Property Name="NUM_PASTA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="NOM_PROCESSO" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_OBJETO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="VLR_CAUSA" Type="Decimal" Precision="15" Scale="2" />
+    <Property Name="PCT_RISCO" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="STA_PROCESSO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="STA_CONTABIL" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="DSC_CONTA_CONTABIL" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ISN_INDICE_FINANCEIRO" Type="Int32" />
+    <Property Name="PCT_TAXA" Type="Decimal" Precision="4" Scale="2" />
+    <Property Name="TIP_EXPRESSAO" Type="Int32" />
+    <Property Name="TIP_INDICE" Type="Int32" />
+    <Property Name="ISN_REFERENCIA" Type="Int32" />
+    <Property Name="DSC_OBSERVACAO_001" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="ISN_MATERIA" Type="Int32" />
+    <Property Name="ISN_PESSOA_PRIORIDADE" Type="Int32" />
+    <Property Name="ISN_PROBABILIDADE_PERDA" Type="Int32" />
+    <Property Name="ISN_FASE" Type="Int32" />
+    <Property Name="ISN_TIPO_RISCO" Type="Int32" />
+    <Property Name="VLR_PROVISIONADO" Type="Decimal" Precision="15" Scale="2" />
+    <Property Name="VLR_FINAL_CAUSA" Type="Decimal" Precision="15" Scale="2" />
+    <Property Name="ISN_TIPO_RESULTADO" Type="Int32" />
+    <Property Name="DAT_FASE" Type="DateTime" Precision="0" />
+    <Property Name="COD_PROCESSO" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="COD_BARRA" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="NUM_SEQUENCIAL" Type="Int16" />
+    <Property Name="COD_EXTERNO" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="ISN_PESSOA_CLIENTE" Type="Int32" />
+    <Property Name="DSC_PARECER" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ISN_CONTRATO" Type="Int32" />
+    <Property Name="ISN_PROCESSO_PAI" Type="Int32" />
+    <Property Name="ISN_GRUPO_PROCESSO" Type="Int32" />
+    <Property Name="VLR_ATUALIZADO_CAUSA" Type="Decimal" Precision="15" Scale="2" />
+    <Property Name="ISN_SERVICO" Type="Int32" />
+    <Property Name="STA_PROCESSO_ANTERIOR" Type="Byte" />
+    <Property Name="DAT_CADASTRO" Type="DateTime" Precision="0" />
+    <Property Name="DAT_RESULTADO" Type="DateTime" Precision="0" />
+    <Property Name="DSC_RESULTADO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ISN_CENTRO_CUSTO" Type="Int32" />
+    <Property Name="ISN_PESSOA_CREDENCIADO" Type="Int32" />
+    <Property Name="VLR_CONTINGENCIA" Type="Decimal" Precision="15" Scale="2" />
+    <Property Name="DAT_DISTRIBUICAO" Type="DateTime" Precision="0" />
+    <Property Name="DAT_CITACAO" Type="DateTime" Precision="0" />
+    <Property Name="DAT_STATUS" Type="DateTime" Precision="0" />
+    <Property Name="NUM_PASTA_AUX" Type="Int32" />
+    <Property Name="DSC_OBSERVACAO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DAT_RECEBIMENTO_INICIAL" Type="DateTime" Precision="0" />
+    <Property Name="DAT_ACORDO_PRIMEIRA_AUDIENCIA" Type="DateTime" Precision="0" />
+    <Property Name="DAT_AUSENCIA_PRIMEIRA_AUDIENCIA" Type="DateTime" Precision="0" />
+    <Property Name="DAT_ARQUIVADO_APOS_AUDIENCIA" Type="DateTime" Precision="0" />
+    <Property Name="DAT_PRIMEIRA_AUDIENCIA" Type="DateTime" Precision="0" />
+    <Property Name="DAT_ACORDO_EXCLUSAO_POLO" Type="DateTime" Precision="0" />
+    <Property Name="TIP_ELETRONICO" Type="Byte" />
+    <Property Name="NUM_EMPRESA" Type="Int16" />
+    <Property Name="NUM_PLANO" Type="Int16" />
+    <Property Name="DAT_VLR_PROVISIONADO" Type="DateTime" Precision="0" />
+    <Property Name="TIP_PROCESSO" Type="Byte" />
+    <Property Name="TIP_MATERIA_PROCESSO" Type="Byte" />
+    <Property Name="TIP_SUSPENSAO_EXIGIBILIDADE" Type="Byte" />
+    <Property Name="TIP_MONTANTE_INTEGRAL" Type="Byte" />
+    <Property Name="TIP_ORIGEM_PROCESSO" Type="Byte" />
+    <NavigationProperty Name="PES_PESSOA" Relationship="Self.FK_PES_CLI_PRO" FromRole="PRO_PROCESSO" ToRole="PES_PESSOA" />
+    <NavigationProperty Name="PES_PESSOA1" Relationship="Self.FK_PES_CRE_PRO" FromRole="PRO_PROCESSO" ToRole="PES_PESSOA" />
+    <NavigationProperty Name="PES_PESSOA2" Relationship="Self.FK_PES_PRO_PRI" FromRole="PRO_PROCESSO" ToRole="PES_PESSOA" />
+    <NavigationProperty Name="PRO_PROCESSO1" Relationship="Self.FK_PRO_PRO_PAI" FromRole="PRO_PROCESSO" ToRole="PRO_PROCESSO1" />
+    <NavigationProperty Name="PRO_PROCESSO2" Relationship="Self.FK_PRO_PRO_PAI" FromRole="PRO_PROCESSO1" ToRole="PRO_PROCESSO" />
+    <NavigationProperty Name="EMP_EMPRESA" Relationship="Model.FK_EMP_PRO" FromRole="PRO_PROCESSO" ToRole="EMP_EMPRESA" />
+  </EntityType>
+  <EntityType Name="RBI_RELATORIO_BI">
+    <Key>
+      <PropertyRef Name="ISN_RELATORIO_BI" />
+      <PropertyRef Name="COD_RELATORIO_BI" />
+      <PropertyRef Name="TAB_RELATORIO_BI" />
+      <PropertyRef Name="COL_RELATORIO_BI" />
+      <PropertyRef Name="OP_LOGICO_RELATORIO_BI" />
+      <PropertyRef Name="NOM_RELATORIO_BI" />
+    </Key>
+    <Property Name="ISN_RELATORIO_BI" Type="Int32" Nullable="false" />
+    <Property Name="NOM_RELATORIO_BI" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="COD_RELATORIO_BI" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TAB_RELATORIO_BI" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="COL_RELATORIO_BI" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OP_LOGICO_RELATORIO_BI" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="COD_RELATORIO_BI_AUX" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="TIP_RELATORIO_AUX" Type="Int32" />
+    <Property Name="TAB_RELATORIO_BI_AUX" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="COL_RELATORIO_BI_AUX" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="OP_LOGICO_RELATORIO_BI_AUX" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="VPP_PARTE_PROCESSO">
+    <Key>
+      <PropertyRef Name="ISN_PROCESSO" />
+    </Key>
+    <Property Name="ISN_PESSOA" Type="Int32" />
+    <Property Name="ISN_PROCESSO" Type="Int32" Nullable="false" />
+    <Property Name="ISN_TIPO_PARTE" Type="Int32" />
+    <Property Name="TIP_CLIENTE" Type="Int32" />
+    <Property Name="ISN_MOTIVO_DESLIGAMENTO" Type="Int32" />
+    <Property Name="DSC_OBSERVACAO_DESLIGAMENTO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DAT_DESLIGAMENTO" Type="DateTime" Precision="0" />
+    <Property Name="TIP_POLO_ATIVO" Type="Byte" />
+    <Property Name="ISN_TIPO_OBJETO" Type="Int32" />
+    <Property Name="TIP_PROVISAO" Type="Byte" />
+  </EntityType>
+  <Association Name="FK_PES_CLI_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_CLIENTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_CLI_PRO">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PRO_PROCESSO" Type="Self.PRO_PROCESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PRO_PROCESSO">
+        <PropertyRef Name="ISN_PESSOA_CLIENTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_CRE_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_CREDENCIADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_CRE_PRO">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PRO_PROCESSO" Type="Self.PRO_PROCESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PRO_PROCESSO">
+        <PropertyRef Name="ISN_PESSOA_CREDENCIADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_PES_INDICADORA">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_INDICADORA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_PRO_PRI">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PRO_PROCESSO" Type="Self.PRO_PROCESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PRO_PROCESSO">
+        <PropertyRef Name="ISN_PESSOA_PRIORIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_REP_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_REPRESENTANTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRO_PRO_PAI">
+    <End Role="PRO_PROCESSO" Type="Self.PRO_PROCESSO" Multiplicity="0..1" />
+    <End Role="PRO_PROCESSO1" Type="Self.PRO_PROCESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRO_PROCESSO">
+        <PropertyRef Name="ISN_PROCESSO" />
+      </Principal>
+      <Dependent Role="PRO_PROCESSO1">
+        <PropertyRef Name="ISN_PROCESSO_PAI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EntitiesDB" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PES_PESSOA" EntityType="Self.PES_PESSOA" />
+    <EntitySet Name="PRO_PROCESSO" EntityType="Self.PRO_PROCESSO" />
+    <EntitySet Name="RBI_RELATORIO_BI" EntityType="Self.RBI_RELATORIO_BI" />
+    <EntitySet Name="VPP_PARTE_PROCESSO" EntityType="Self.VPP_PARTE_PROCESSO" />
+    <AssociationSet Name="FK_PES_CLI_PES" Association="Self.FK_PES_CLI_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_CLI_PRO" Association="Self.FK_PES_CLI_PRO">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PRO_PROCESSO" EntitySet="PRO_PROCESSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_CRE_PES" Association="Self.FK_PES_CRE_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_CRE_PRO" Association="Self.FK_PES_CRE_PRO">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PRO_PROCESSO" EntitySet="PRO_PROCESSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_PES_INDICADORA" Association="Self.FK_PES_PES_INDICADORA">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_PRO_PRI" Association="Self.FK_PES_PRO_PRI">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PRO_PROCESSO" EntitySet="PRO_PROCESSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_REP_PES" Association="Self.FK_PES_REP_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRO_PRO_PAI" Association="Self.FK_PRO_PRO_PAI">
+      <End Role="PRO_PROCESSO" EntitySet="PRO_PROCESSO" />
+      <End Role="PRO_PROCESSO1" EntitySet="PRO_PROCESSO" />
+    </AssociationSet>
+    <EntitySet Name="EMP_EMPRESA" EntityType="Model.EMP_EMPRESA" />
+    <AssociationSet Name="FK_EMP_MIT" Association="Model.FK_EMP_MIT">
+      <End Role="EMP_EMPRESA" EntitySet="EMP_EMPRESA" />
+      <End Role="EMP_EMPRESA1" EntitySet="EMP_EMPRESA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EMP_PES" Association="Model.FK_EMP_PES">
+      <End Role="EMP_EMPRESA" EntitySet="EMP_EMPRESA" />
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EMP_PRO" Association="Model.FK_EMP_PRO">
+      <End Role="EMP_EMPRESA" EntitySet="EMP_EMPRESA" />
+      <End Role="PRO_PROCESSO" EntitySet="PRO_PROCESSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_EMP" Association="Model.FK_PES_EMP">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="EMP_EMPRESA" EntitySet="EMP_EMPRESA" />
+    </AssociationSet>
+    <EntitySet Name="ACE_ACESSO" EntityType="Model.ACE_ACESSO" />
+    <AssociationSet Name="FK_PES_ACE" Association="Model.FK_PES_ACE">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="ACE_ACESSO" EntitySet="ACE_ACESSO" />
+    </AssociationSet>
+    <EntitySet Name="FUN_FUNCAO" EntityType="Model.FUN_FUNCAO" />
+    <AssociationSet Name="ACE_ACESSO1" Association="Model.ACE_ACESSO1">
+      <End Role="FUN_FUNCAO" EntitySet="FUN_FUNCAO" />
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="EMP_EMPRESA">
+    <Key>
+      <PropertyRef Name="ISN_EMPRESA" />
+    </Key>
+    <Property Name="ISN_EMPRESA" Type="Int32" Nullable="false" />
+    <Property Name="TIP_NOME_VISIVEL" Type="Boolean" />
+    <Property Name="TIP_MODULO_FINANCEIRO" Type="Boolean" Nullable="false" />
+    <Property Name="TIP_MODULO_ADMINISTRADOR_SITE" Type="Boolean" />
+    <Property Name="TIP_CAMPO_VAZIO" Type="Boolean" />
+    <Property Name="TIP_INFORMACAO_FINANCEIRA" Type="Byte" />
+    <Property Name="TIP_SELECIONA_EVENTOS" Type="Byte" />
+    <Property Name="NOM_PROBABILIDADE" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="TIP_EVENTO_AFAZER" Type="Byte" />
+    <Property Name="ISN_PLANO" Type="Int16" />
+    <Property Name="DAT_EXPIRACAO_ASSINATURA" Type="DateTime" Precision="0" />
+    <Property Name="TIP_ATUALIZACAO_AUTOMATICA" Type="Byte" />
+    <Property Name="NR_ETIQUETA_PAGINA" Type="Byte" />
+    <Property Name="TIP_AFAZER_RESUMIDO" Type="Byte" />
+    <Property Name="TIP_ACESSO_PROCESSO" Type="Byte" />
+    <Property Name="TIP_SELECIONA_EVENTOS_MARCADO" Type="Byte" />
+    <Property Name="NUM_ULTIMA_FATURA" Type="Int32" />
+    <Property Name="DSC_MENSAGEM_FATURA_INI" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_MENSAGEM_FATURA_FIM" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Name="NOM_RESPONSAVEL_FINANCEIRO" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="NOM_CARGO_RESPONSAVEL" Type="String" MaxLength="40" FixedLength="true" Unicode="false" />
+    <Property Name="TIP_SELECIONA_EVENTOS_INTEGRACAO" Type="Byte" />
+    <Property Name="TIP_VALOR_PROBABILIDADE" Type="Byte" />
+    <Property Name="TIP_PROCESSO_RECORRENTE" Type="Byte" />
+    <Property Name="TIP_GERA_NUMERO_PASTA" Type="Byte" />
+    <Property Name="TIP_CONTA_PREVISTA" Type="Byte" />
+    <Property Name="TIP_INTEGRACAO_SISTEMA_EXTERNO" Type="Byte" />
+    <Property Name="TIP_CORRECAO_VALORES" Type="Byte" />
+    <Property Name="TIP_GRUPO_PROCESSO" Type="Byte" />
+    <Property Name="TIP_PAUTA_EVENTOS" Type="Byte" />
+    <Property Name="TIP_DATA_CONFIRMACAO" Type="Byte" />
+    <Property Name="TIP_NATUREZA" Type="Byte" />
+    <Property Name="TIP_PRAZO_ANALISE" Type="Byte" />
+    <Property Name="TIP_GRUPO_PROCEDIMENTO" Type="Byte" />
+    <Property Name="TIP_ALTERA_REFERENCIA" Type="Byte" />
+    <Property Name="TIP_FASE_ANDAMENTO" Type="Byte" />
+    <Property Name="TIP_PERIODO_INTEGRACAO" Type="Byte" />
+    <Property Name="TIP_MOTIVO_DESLIGAMENTO" Type="Byte" />
+    <Property Name="TIP_PESQUISA_GERAL" Type="Byte" />
+    <Property Name="TIP_ALTERA_MOVIMENTACAO_PASTA" Type="Byte" />
+    <Property Name="TIP_FATURA" Type="Byte" />
+    <Property Name="NUM_AREA_DOCUMENTOS" Type="Decimal" Precision="15" Scale="2" />
+    <Property Name="TIP_VALOR_PEDIDO" Type="Byte" />
+    <Property Name="TIP_CENTRO_CUSTO" Type="Byte" />
+    <Property Name="IMG_LOGOMARCA" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="NOM_EXTENSAO_LOGOMARCA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TIP_POLO_ATIVO" Type="Byte" />
+    <Property Name="TIP_ENCERRAMENTO" Type="Byte" />
+    <Property Name="TIP_PUBLICACAO" Type="Byte" />
+    <Property Name="COD_CONTRATO" Type="Int32" />
+    <Property Name="TIP_AFAZER_OUTROS_USUARIOS" Type="Byte" />
+    <Property Name="TIP_AFAZER_SEPARADO" Type="Byte" />
+    <Property Name="NUM_ULTIMO_RECIBO" Type="Int32" />
+    <Property Name="TIP_EXIBE_DADOS_GERAIS_EMAIL" Type="Byte" />
+    <Property Name="TIP_CONTABILIZACOES" Type="Byte" />
+    <Property Name="NUM_DIAS_RESPONSAVEL" Type="Int16" />
+    <Property Name="TIP_CONFIRMACAO_EMAIL" Type="Byte" />
+    <Property Name="TIP_GERA_NUMERO_CONTRATO" Type="Byte" />
+    <Property Name="TIP_PRESTACAO_CONTAS" Type="Byte" />
+    <Property Name="NUM_ULTIMA_PRESTACAO_CONTAS" Type="Int32" />
+    <Property Name="TIP_GERA_CONTRATO" Type="Byte" />
+    <Property Name="TIP_GERA_PETICAO" Type="Byte" />
+    <Property Name="TIP_VERIFICA_CPF_CNPJ" Type="Byte" />
+    <Property Name="TIP_EXIBE_DOCUMENTO_EVENTO" Type="Byte" />
+    <Property Name="NUM_ULTIMO_ADIANTAMENTO" Type="Int32" />
+    <Property Name="TIP_EXIGE_CPF_CPNPJ" Type="Byte" />
+    <Property Name="TIP_EXIGE_CPF_CNPJ" Type="Byte" />
+    <Property Name="TIP_CONFIRMA_REALIZACAO_EVENTO" Type="Byte" />
+    <Property Name="TIP_CORRECAO_VALORES_COMPOSTA" Type="Byte" />
+    <Property Name="TIP_DESTACA_EVENTO" Type="Byte" />
+    <Property Name="TIP_MODELO_DOCUMENTO" Type="Byte" />
+    <Property Name="TIP_PREPROCESSO" Type="Byte" />
+    <Property Name="TIP_MOTIVO_DESLIGAMENTO_ADV" Type="Byte" />
+    <Property Name="TIP_BAIXA_PARCIAL" Type="Byte" />
+    <Property Name="TIP_CONTROLE_COBRANCA" Type="Byte" />
+    <Property Name="TIP_EXIGE_PARTE" Type="Byte" />
+    <Property Name="NUM_DIA_INICIAL_LANCAMENTO" Type="Int16" />
+    <Property Name="NUM_DIA_FINAL_LANCAMENTO" Type="Int16" />
+    <Property Name="TIP_GERA_NUMERO_ATO" Type="Byte" />
+    <Property Name="TIP_TAREFA_INDIVIDUAL" Type="Byte" />
+    <Property Name="NUM_DIA_LANCAMENTO_ATIVIDADE" Type="Int16" />
+    <Property Name="TIP_RATEIO_CENTRO_CUSTO" Type="Byte" />
+    <Property Name="TIP_GERA_NUMERO_SERVICO" Type="Byte" />
+    <Property Name="DAT_EXPIRACAO_ASSINATURA_CRIP" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="TIP_LIMINAR" Type="Byte" />
+    <Property Name="TIP_NOTIFICA_INCLUSAO_PARTE" Type="Byte" />
+    <Property Name="TIP_IMPORTACAO_PROCESSO" Type="Byte" />
+    <Property Name="TIP_ULTIMA_INSTANCIA" Type="Byte" />
+    <Property Name="TIP_APROVA_PAGAMENTO" Type="Byte" />
+    <Property Name="TIP_FORMATO_TITULO" Type="Byte" />
+    <Property Name="TIP_DUPLICIDADE_RECORRENCIA" Type="Byte" />
+    <Property Name="TIP_MODULO_ACORDO" Type="Byte" />
+    <Property Name="TIP_INTEGRACAO_AUTOMATICA" Type="Byte" />
+    <Property Name="DSC_ENDERECO_GED" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="TIP_ORDEM_EXIBICAO_DOCUMENTO" Type="Byte" />
+    <Property Name="TIP_RESPONSAVEL_EVENTO" Type="Byte" />
+    <Property Name="TIP_CAPTCHA_AUTOMATICO" Type="Byte" />
+    <Property Name="TIP_FILTRO_TEXTO_PADRAO" Type="Byte" />
+    <Property Name="TIP_SERVICO_PRODUTO_CONTRATO" Type="Byte" />
+    <Property Name="TIP_PRAZO_SERVICO" Type="Byte" />
+    <Property Name="TIP_INSTANCIA_ORIGEM" Type="Byte" />
+    <Property Name="TIP_EXIGE_RESPONSAVEL_EVENTO" Type="Byte" />
+    <Property Name="TIP_ESOCIAL" Type="Byte" />
+    <Property Name="TIP_DEMONSTRATIVO_RESULTADO" Type="Byte" />
+    <Property Name="TIP_EDITA_OBSERVACAO_ANEXO" Type="Byte" />
+    <Property Name="DSC_LOGIN_UPJURIS" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_SENHA_UPJURIS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_LOGIN_KURIER" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DSC_SENHA_KURIER" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TIP_ARMAZENAMENTO" Type="Byte" />
+    <Property Name="NUM_ULTIMA_NOTA" Type="Int32" />
+    <Property Name="TIP_ANALYTICS" Type="Byte" />
+    <NavigationProperty Name="EMP_EMPRESA1" Relationship="Model.FK_EMP_MIT" FromRole="EMP_EMPRESA" ToRole="EMP_EMPRESA1" />
+    <NavigationProperty Name="EMP_EMPRESA2" Relationship="Model.FK_EMP_MIT" FromRole="EMP_EMPRESA1" ToRole="EMP_EMPRESA" />
+    <NavigationProperty Name="PES_PESSOA" Relationship="Model.FK_EMP_PES" FromRole="EMP_EMPRESA" ToRole="PES_PESSOA" />
+    <NavigationProperty Name="PRO_PROCESSO" Relationship="Model.FK_EMP_PRO" FromRole="EMP_EMPRESA" ToRole="PRO_PROCESSO" />
+    <NavigationProperty Name="PES_PESSOA1" Relationship="Model.FK_PES_EMP" FromRole="EMP_EMPRESA" ToRole="PES_PESSOA" />
+  </EntityType>
+  <Association Name="FK_EMP_MIT">
+    <End Type="Model.EMP_EMPRESA" Role="EMP_EMPRESA" Multiplicity="1" />
+    <End Type="Model.EMP_EMPRESA" Role="EMP_EMPRESA1" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="EMP_EMPRESA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Principal>
+      <Dependent Role="EMP_EMPRESA1">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EMP_PES">
+    <End Type="Model.EMP_EMPRESA" Role="EMP_EMPRESA" Multiplicity="0..1" />
+    <End Type="Model.PES_PESSOA" Role="PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMP_EMPRESA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EMP_PRO">
+    <End Type="Model.EMP_EMPRESA" Role="EMP_EMPRESA" Multiplicity="1" />
+    <End Type="Model.PRO_PROCESSO" Role="PRO_PROCESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMP_EMPRESA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Principal>
+      <Dependent Role="PRO_PROCESSO">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_EMP">
+    <End Type="Model.PES_PESSOA" Role="PES_PESSOA" Multiplicity="1" />
+    <End Type="Model.EMP_EMPRESA" Role="EMP_EMPRESA" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="EMP_EMPRESA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ACE_ACESSO">
+    <Key>
+      <PropertyRef Name="ISN_PESSOA" />
+      <PropertyRef Name="ISN_FUNCAO" />
+    </Key>
+    <Property Name="ISN_PESSOA" Type="Int32" Nullable="false" />
+    <Property Name="ISN_FUNCAO" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="PES_PESSOA" Relationship="Model.FK_PES_ACE" FromRole="ACE_ACESSO" ToRole="PES_PESSOA" />
+  </EntityType>
+  <Association Name="FK_PES_ACE">
+    <End Type="Model.PES_PESSOA" Role="PES_PESSOA" Multiplicity="1" />
+    <End Type="Model.ACE_ACESSO" Role="ACE_ACESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="ACE_ACESSO">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="FUN_FUNCAO">
+    <Key>
+      <PropertyRef Name="ISN_FUNCAO" />
+    </Key>
+    <Property Name="ISN_FUNCAO" Type="Int32" Nullable="false" />
+    <Property Name="DSC_FUNCAO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="COD_FUNCAO" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="ISN_MODULO" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="PES_PESSOA" Relationship="Model.ACE_ACESSO1" FromRole="FUN_FUNCAO" ToRole="PES_PESSOA" />
+  </EntityType>
+  <Association Name="ACE_ACESSO1">
+    <End Type="Model.FUN_FUNCAO" Role="FUN_FUNCAO" Multiplicity="*" />
+    <End Type="Model.PES_PESSOA" Role="PES_PESSOA" Multiplicity="*" />
+  </Association>
+</Schema>

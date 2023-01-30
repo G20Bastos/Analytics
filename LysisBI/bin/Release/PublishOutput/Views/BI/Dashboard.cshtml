@@ -1,0 +1,169 @@
+﻿@model LysisBI.Models.RelatorioModel
+
+@{
+    ViewBag.Title = "Index";
+   
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="https://npmcdn.com/es6-promise@3.2.1"></script>
+<script src="~/scripts/powerbi.js"></script>
+
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div id="errorWrapper">
+        <h2>
+            Error
+        </h2>
+        <pre>
+            @Model.ErrorMessage
+        </pre>
+    </div>
+
+    return;
+}
+
+
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="~/Content/dashboard/assets/css/main.css" />
+</head>
+<body>
+    <div id="page-wrapper">
+
+        
+        <!-- Header -->
+        <section id="header" class="wrapper">
+
+
+            <!-- Logo -->
+            <div id="logo">
+                <h1>Lysis</h1>  
+                <p>@Session["Dsc_Empresa"] | Business Intelligence</p>
+                
+            </div>
+         
+
+            <!-- Nav -->
+            <br />
+            <nav id="nav">
+                
+                <ul>
+                    <li>
+                        <a href="#">Visões Analíticas</a>
+                        <ul>
+                            @{
+                                foreach (var currentItem in Model.ListDropdownReports())
+                                {
+                                   
+                                    <li><a href="@Url.Action("CarregaReportSelecionado", "BI", new {selectedValue = @currentItem.Key })" value =@currentItem.Key >@currentItem.Value</a></li>
+                                }
+                                <li><a href="@Url.Action("Logout","BI")" value="logout" id="drpListaReports">Sair</a></li>
+                                  
+                            }
+                            
+                        </ul>
+                        
+                        
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <div id="reportContainer">
+
+        </div>
+
+        </div>
+
+    
+   
+   
+    <!-- Scripts     -->
+    <script src="~/Content/dashboard/assets/js/jquery.min.js"></script>
+    <script src="~/Content/dashboard/assets/js/jquery.dropotron.min.js"></script>
+    <script src="~/Content/dashboard/assets/js/browser.min.js"></script>
+    <script src="~/Content/dashboard/assets/js/breakpoints.min.js"></script>
+    <script src="~/Content/dashboard/assets/js/util.js"></script>
+    <script src="~/Content/dashboard/assets/js/main.js"></script>
+    
+        </body>
+
+
+</html>
+
+
+    <script>
+    // Pegando token do modelo
+    var accessToken = "@Model.EmbedToken.Token";
+
+    // Lendo a URLEmbed do modelo
+    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
+
+    // Lendo o ID do Report do modelo que foi pego da base
+    var embedReportId = "@Model.Id";
+
+    // Pegando model. No models existem Enums que podem ser usados.
+    var models = window['powerbi-client'].models;
+
+    // As configuração abaixo são utilizadas para descrever o que e como serão incorporados na página.
+    // Este objeto é utilizado quando chamado pelo powerbi.api.
+   // Isso também inclui configurações e opções, como filtros.
+    // Link da documentação https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
+
+    //Implementando Filtro
+    const filtroEmpresa = {
+        $schema: "http://powerbi.com/product/schema#basic",
+        target: {
+            table: "@Model.Tabela",
+            column: "@Model.Coluna"
+        },
+        operator: "@Model.OperadorLogico",
+        values: ["@Model.ValorParametro"]
+    };
+        //Configurações de como e o que será incorporado na página
+    var config = {
+        type: 'report',
+        tokenType: models.TokenType.Embed,
+        accessToken: accessToken,
+        embedUrl: embedUrl,
+        id: embedReportId,
+        permissions: models.Permissions.All,
+        filters: [filtroEmpresa],
+        settings: {
+            filterPaneEnabled: true,
+            navContentPaneEnabled: true,
+        }
+    };
+
+    // Referenciando a div HTML
+    var reportContainer = $('#reportContainer')[0];
+
+    if ("@Model.Username" != "") {
+
+        $("#RLSdiv").show();
+    }
+
+
+    if ("@Model.IsEffectiveIdentityRequired.GetValueOrDefault()" == "True") {
+        $("#noRLSdiv").hide();
+        $("#RLS").removeAttr("disabled");
+        $("#RLS").change(function () {
+            if ($(this).is(":checked")) {
+                $("#RLSdiv").show(300);
+            } else {
+                $("#RLSdiv").hide(200);
+            }
+        });
+    }
+    else
+    {
+        $("#noRLSdiv").show();
+    }
+    // Exibe o report na Div.
+        var report = powerbi.embed(reportContainer, config);
+        </script>

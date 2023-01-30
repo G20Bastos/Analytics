@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ACE_ACESSO">
+    <Key>
+      <PropertyRef Name="ISN_PESSOA" />
+      <PropertyRef Name="ISN_FUNCAO" />
+    </Key>
+    <Property Name="ISN_PESSOA" Type="int" Nullable="false" />
+    <Property Name="ISN_FUNCAO" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS">
+    <Key>
+      <PropertyRef Name="ISN_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS" />
+    </Key>
+    <Property Name="ISN_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS" Type="int" Nullable="false" />
+    <Property Name="ISN_PARAMETRO_DISPONIBILIDADE_ANALYTICS" Type="int" />
+    <Property Name="TIP_DIA_DISPONIBILIDADE_ANALYTICS" Type="int" />
+  </EntityType>
+  <EntityType Name="EMP_EMPRESA">
+    <Key>
+      <PropertyRef Name="ISN_EMPRESA" />
+    </Key>
+    <Property Name="ISN_EMPRESA" Type="int" Nullable="false" />
+    <Property Name="TIP_NOME_VISIVEL" Type="bit" />
+    <Property Name="TIP_MODULO_FINANCEIRO" Type="bit" Nullable="false" />
+    <Property Name="TIP_MODULO_ADMINISTRADOR_SITE" Type="bit" />
+    <Property Name="TIP_CAMPO_VAZIO" Type="bit" />
+    <Property Name="TIP_INFORMACAO_FINANCEIRA" Type="tinyint" />
+    <Property Name="TIP_SELECIONA_EVENTOS" Type="tinyint" />
+    <Property Name="NOM_PROBABILIDADE" Type="char" MaxLength="30" />
+    <Property Name="TIP_EVENTO_AFAZER" Type="tinyint" />
+    <Property Name="ISN_PLANO" Type="smallint" />
+    <Property Name="DAT_EXPIRACAO_ASSINATURA" Type="smalldatetime" />
+    <Property Name="TIP_ATUALIZACAO_AUTOMATICA" Type="tinyint" />
+    <Property Name="NR_ETIQUETA_PAGINA" Type="tinyint" />
+    <Property Name="TIP_AFAZER_RESUMIDO" Type="tinyint" />
+    <Property Name="TIP_ACESSO_PROCESSO" Type="tinyint" />
+    <Property Name="TIP_SELECIONA_EVENTOS_MARCADO" Type="tinyint" />
+    <Property Name="NUM_ULTIMA_FATURA" Type="int" />
+    <Property Name="DSC_MENSAGEM_FATURA_INI" Type="varchar" MaxLength="1000" />
+    <Property Name="DSC_MENSAGEM_FATURA_FIM" Type="varchar" MaxLength="2000" />
+    <Property Name="NOM_RESPONSAVEL_FINANCEIRO" Type="char" MaxLength="50" />
+    <Property Name="NOM_CARGO_RESPONSAVEL" Type="char" MaxLength="40" />
+    <Property Name="TIP_SELECIONA_EVENTOS_INTEGRACAO" Type="tinyint" />
+    <Property Name="TIP_VALOR_PROBABILIDADE" Type="tinyint" />
+    <Property Name="TIP_PROCESSO_RECORRENTE" Type="tinyint" />
+    <Property Name="TIP_GERA_NUMERO_PASTA" Type="tinyint" />
+    <Property Name="TIP_CONTA_PREVISTA" Type="tinyint" />
+    <Property Name="TIP_INTEGRACAO_SISTEMA_EXTERNO" Type="tinyint" />
+    <Property Name="TIP_CORRECAO_VALORES" Type="tinyint" />
+    <Property Name="TIP_GRUPO_PROCESSO" Type="tinyint" />
+    <Property Name="TIP_PAUTA_EVENTOS" Type="tinyint" />
+    <Property Name="TIP_DATA_CONFIRMACAO" Type="tinyint" />
+    <Property Name="TIP_NATUREZA" Type="tinyint" />
+    <Property Name="TIP_PRAZO_ANALISE" Type="tinyint" />
+    <Property Name="TIP_GRUPO_PROCEDIMENTO" Type="tinyint" />
+    <Property Name="TIP_ALTERA_REFERENCIA" Type="tinyint" />
+    <Property Name="TIP_FASE_ANDAMENTO" Type="tinyint" />
+    <Property Name="TIP_PERIODO_INTEGRACAO" Type="tinyint" />
+    <Property Name="TIP_MOTIVO_DESLIGAMENTO" Type="tinyint" />
+    <Property Name="TIP_PESQUISA_GERAL" Type="tinyint" />
+    <Property Name="TIP_ALTERA_MOVIMENTACAO_PASTA" Type="tinyint" />
+    <Property Name="TIP_FATURA" Type="tinyint" />
+    <Property Name="NUM_AREA_DOCUMENTOS" Type="decimal" Precision="15" Scale="2" />
+    <Property Name="TIP_VALOR_PEDIDO" Type="tinyint" />
+    <Property Name="TIP_CENTRO_CUSTO" Type="tinyint" />
+    <Property Name="IMG_LOGOMARCA" Type="image" />
+    <Property Name="NOM_EXTENSAO_LOGOMARCA" Type="varchar" MaxLength="20" />
+    <Property Name="TIP_POLO_ATIVO" Type="tinyint" />
+    <Property Name="TIP_ENCERRAMENTO" Type="tinyint" />
+    <Property Name="TIP_PUBLICACAO" Type="tinyint" />
+    <Property Name="COD_CONTRATO" Type="int" />
+    <Property Name="TIP_AFAZER_OUTROS_USUARIOS" Type="tinyint" />
+    <Property Name="TIP_AFAZER_SEPARADO" Type="tinyint" />
+    <Property Name="NUM_ULTIMO_RECIBO" Type="int" />
+    <Property Name="TIP_EXIBE_DADOS_GERAIS_EMAIL" Type="tinyint" />
+    <Property Name="TIP_CONTABILIZACOES" Type="tinyint" />
+    <Property Name="NUM_DIAS_RESPONSAVEL" Type="smallint" />
+    <Property Name="TIP_CONFIRMACAO_EMAIL" Type="tinyint" />
+    <Property Name="TIP_GERA_NUMERO_CONTRATO" Type="tinyint" />
+    <Property Name="TIP_PRESTACAO_CONTAS" Type="tinyint" />
+    <Property Name="NUM_ULTIMA_PRESTACAO_CONTAS" Type="int" />
+    <Property Name="TIP_GERA_CONTRATO" Type="tinyint" />
+    <Property Name="TIP_GERA_PETICAO" Type="tinyint" />
+    <Property Name="TIP_VERIFICA_CPF_CNPJ" Type="tinyint" />
+    <Property Name="TIP_EXIBE_DOCUMENTO_EVENTO" Type="tinyint" />
+    <Property Name="NUM_ULTIMO_ADIANTAMENTO" Type="int" />
+    <Property Name="TIP_EXIGE_CPF_CNPJ" Type="tinyint" />
+    <Property Name="TIP_CONFIRMA_REALIZACAO_EVENTO" Type="tinyint" />
+    <Property Name="TIP_CORRECAO_VALORES_COMPOSTA" Type="tinyint" />
+    <Property Name="TIP_DESTACA_EVENTO" Type="tinyint" />
+    <Property Name="TIP_MODELO_DOCUMENTO" Type="tinyint" />
+    <Property Name="TIP_PREPROCESSO" Type="tinyint" />
+    <Property Name="TIP_MOTIVO_DESLIGAMENTO_ADV" Type="tinyint" />
+    <Property Name="TIP_BAIXA_PARCIAL" Type="tinyint" />
+    <Property Name="TIP_CONTROLE_COBRANCA" Type="tinyint" />
+    <Property Name="TIP_EXIGE_PARTE" Type="tinyint" />
+    <Property Name="NUM_DIA_INICIAL_LANCAMENTO" Type="smallint" />
+    <Property Name="NUM_DIA_FINAL_LANCAMENTO" Type="smallint" />
+    <Property Name="TIP_GERA_NUMERO_ATO" Type="tinyint" />
+    <Property Name="TIP_TAREFA_INDIVIDUAL" Type="tinyint" />
+    <Property Name="NUM_DIA_LANCAMENTO_ATIVIDADE" Type="smallint" />
+    <Property Name="TIP_RATEIO_CENTRO_CUSTO" Type="tinyint" />
+    <Property Name="TIP_GERA_NUMERO_SERVICO" Type="tinyint" />
+    <Property Name="DAT_EXPIRACAO_ASSINATURA_CRIP" Type="varchar" MaxLength="500" />
+    <Property Name="TIP_LIMINAR" Type="tinyint" />
+    <Property Name="TIP_NOTIFICA_INCLUSAO_PARTE" Type="tinyint" />
+    <Property Name="TIP_IMPORTACAO_PROCESSO" Type="tinyint" />
+    <Property Name="TIP_ULTIMA_INSTANCIA" Type="tinyint" />
+    <Property Name="TIP_APROVA_PAGAMENTO" Type="tinyint" />
+    <Property Name="TIP_FORMATO_TITULO" Type="tinyint" />
+    <Property Name="TIP_DUPLICIDADE_RECORRENCIA" Type="tinyint" />
+    <Property Name="TIP_MODULO_ACORDO" Type="tinyint" />
+    <Property Name="TIP_INTEGRACAO_AUTOMATICA" Type="tinyint" />
+    <Property Name="DSC_ENDERECO_GED" Type="varchar" MaxLength="200" />
+    <Property Name="TIP_ORDEM_EXIBICAO_DOCUMENTO" Type="tinyint" />
+    <Property Name="TIP_RESPONSAVEL_EVENTO" Type="tinyint" />
+    <Property Name="TIP_CAPTCHA_AUTOMATICO" Type="tinyint" />
+    <Property Name="TIP_FILTRO_TEXTO_PADRAO" Type="tinyint" />
+    <Property Name="TIP_SERVICO_PRODUTO_CONTRATO" Type="tinyint" />
+    <Property Name="TIP_PRAZO_SERVICO" Type="tinyint" />
+    <Property Name="TIP_INSTANCIA_ORIGEM" Type="tinyint" />
+    <Property Name="TIP_EXIGE_RESPONSAVEL_EVENTO" Type="tinyint" />
+    <Property Name="TIP_ESOCIAL" Type="tinyint" />
+    <Property Name="TIP_DEMONSTRATIVO_RESULTADO" Type="tinyint" />
+    <Property Name="TIP_EDITA_OBSERVACAO_ANEXO" Type="tinyint" />
+    <Property Name="DSC_LOGIN_UPJURIS" Type="varchar" MaxLength="150" />
+    <Property Name="DSC_SENHA_UPJURIS" Type="varchar" MaxLength="50" />
+    <Property Name="DSC_LOGIN_KURIER" Type="varchar" MaxLength="150" />
+    <Property Name="DSC_SENHA_KURIER" Type="varchar" MaxLength="50" />
+    <Property Name="TIP_ARMAZENAMENTO" Type="tinyint" />
+    <Property Name="TIP_ANALYTICS" Type="tinyint" />
+    <Property Name="NUM_ULTIMA_NOTA" Type="int" />
+    <Property Name="TIP_INTEGRACAO_AUTOMATICA_DIARIA" Type="tinyint" />
+    <Property Name="TIP_INF_ADICIONAL_ANALYTICS" Type="tinyint" />
+    <Property Name="NUM_ESPACO_OCUPADO" Type="decimal" Precision="15" Scale="4" />
+    <Property Name="DSC_LOGIN_AVISO_URGENTE" Type="varchar" MaxLength="150" />
+    <Property Name="DSC_SENHA_AVISO_URGENTE" Type="varchar" MaxLength="50" />
+    <Property Name="DSC_DIRETORIO_DRIVE" Type="varchar" MaxLength="200" />
+    <Property Name="TIP_DRE_ANALITICO" Type="tinyint" />
+    <Property Name="TIP_RESTRICAO_OPERACAO" Type="tinyint" />
+    <Property Name="TIP_VALOR_VENCIMENTO" Type="tinyint" />
+    <Property Name="NUM_TOKEN" Type="varchar" MaxLength="4000" />
+  </EntityType>
+  <EntityType Name="FUN_FUNCAO">
+    <Key>
+      <PropertyRef Name="ISN_FUNCAO" />
+    </Key>
+    <Property Name="ISN_FUNCAO" Type="int" Nullable="false" />
+    <Property Name="DSC_FUNCAO" Type="varchar" MaxLength="50" />
+    <Property Name="COD_FUNCAO" Type="char" MaxLength="6" />
+    <Property Name="ISN_MODULO" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GPE_GRUPO_PESSOA">
+    <Key>
+      <PropertyRef Name="ISN_GRUPO_PESSOA" />
+    </Key>
+    <Property Name="ISN_GRUPO_PESSOA" Type="int" Nullable="false" />
+    <Property Name="NOM_GRUPO_PESSOA" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ISN_EMPRESA" Type="int" Nullable="false" />
+    <Property Name="COD_EXTERNO" Type="int" />
+    <Property Name="TIP_STATUS" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS">
+    <Key>
+      <PropertyRef Name="ISN_PARAMETRO_DISPONIBILIDADE_ANALYTICS" />
+    </Key>
+    <Property Name="ISN_PARAMETRO_DISPONIBILIDADE_ANALYTICS" Type="int" Nullable="false" />
+    <Property Name="HOR_PAUSA_DISPONIBILIDADE" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="HOR_INICIO_DISPONIBILIDADE" Type="char" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="PES_PESSOA">
+    <Key>
+      <PropertyRef Name="ISN_PESSOA" />
+    </Key>
+    <Property Name="ISN_PESSOA" Type="int" Nullable="false" />
+    <Property Name="ISN_TIPO_PESSOA" Type="int" />
+    <Property Name="ISN_PAIS" Type="int" />
+    <Property Name="ISN_ESTADO" Type="int" />
+    <Property Name="ISN_EMPRESA" Type="int" />
+    <Property Name="ISN_PROFISSAO" Type="int" />
+    <Property Name="NOM_PESSOA" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="NOM_FANTASIA" Type="char" MaxLength="60" />
+    <Property Name="DSC_ENDERECO" Type="varchar" MaxLength="200" />
+    <Property Name="DSC_BAIRRO" Type="char" MaxLength="25" />
+    <Property Name="NOM_CIDADE" Type="char" MaxLength="25" />
+    <Property Name="NUM_FONE1" Type="char" MaxLength="15" />
+    <Property Name="NUM_FONE2" Type="char" MaxLength="15" />
+    <Property Name="NUM_CELULAR" Type="char" MaxLength="15" />
+    <Property Name="NUM_FAX" Type="char" MaxLength="15" />
+    <Property Name="DSC_EMAIL" Type="varchar" MaxLength="60" />
+    <Property Name="DSC_SITE" Type="varchar" MaxLength="60" />
+    <Property Name="NUM_CNPJ" Type="char" MaxLength="19" />
+    <Property Name="NUM_CPF" Type="char" MaxLength="14" />
+    <Property Name="NUM_OAB" Type="char" MaxLength="15" />
+    <Property Name="TIP_ADVOGADO" Type="bit" />
+    <Property Name="TIP_INATIVO" Type="bit" />
+    <Property Name="DSC_OBSERVACAO" Type="varchar" MaxLength="8000" />
+    <Property Name="DSC_LOGIN" Type="varchar" MaxLength="60" />
+    <Property Name="DSC_SENHA" Type="char" MaxLength="25" />
+    <Property Name="TIP_LOGIN_INATIVO" Type="bit" />
+    <Property Name="DAT_NASCIMENTO" Type="datetime" />
+    <Property Name="DSC_ESTADO_CIVIL" Type="int" />
+    <Property Name="NUM_RG" Type="char" MaxLength="30" />
+    <Property Name="DSC_TRATAMENTO" Type="char" MaxLength="25" />
+    <Property Name="NUM_CEP" Type="char" MaxLength="9" />
+    <Property Name="NOM_CONTATO" Type="varchar" MaxLength="100" />
+    <Property Name="ISN_PESSOA_INDICADORA" Type="int" />
+    <Property Name="NOM_SIGLA" Type="char" MaxLength="10" />
+    <Property Name="DSC_EMAIL2" Type="varchar" MaxLength="60" />
+    <Property Name="COD_EXTERNO" Type="varchar" MaxLength="100" />
+    <Property Name="ISN_NACIONALIDADE" Type="int" />
+    <Property Name="TIP_IMPOSTO" Type="tinyint" />
+    <Property Name="TIP_NOTIFICACAO" Type="tinyint" />
+    <Property Name="NUM_CGF" Type="char" MaxLength="15" />
+    <Property Name="NOM_MAE" Type="varchar" MaxLength="100" />
+    <Property Name="NUM_CTPS" Type="char" MaxLength="30" />
+    <Property Name="SER_CTPS" Type="char" MaxLength="15" />
+    <Property Name="NUM_PIS" Type="char" MaxLength="15" />
+    <Property Name="DAT_ATUALIZACAO" Type="smalldatetime" />
+    <Property Name="ISN_GRUPO_PESSOA" Type="int" />
+    <Property Name="ISN_PESSOA_CLIENTE" Type="int" />
+    <Property Name="ISN_PESSOA_CREDENCIADO" Type="int" />
+    <Property Name="TIP_REPRESENTANTE_LEGAL" Type="tinyint" />
+    <Property Name="ISN_ACAO" Type="int" />
+    <Property Name="TIP_PUBLICACAO" Type="tinyint" />
+    <Property Name="ISN_ESTADO_OAB" Type="int" />
+    <Property Name="COD_VINCULO" Type="int" />
+    <Property Name="DAT_ULTIMO_ACESSO" Type="smalldatetime" />
+    <Property Name="ISN_PESSOA_REPRESENTANTE" Type="int" />
+    <Property Name="DAT_VENCIMENTO_PADRAO" Type="tinyint" />
+    <Property Name="DSC_COMPLEMENTO_ENDERECO" Type="varchar" MaxLength="100" />
+    <Property Name="DSC_ORGAO_EXPEDIDOR" Type="varchar" MaxLength="100" />
+    <Property Name="ISN_TIPO_SERVICO" Type="int" />
+    <Property Name="ISN_FILIAL_EXTERNA" Type="char" MaxLength="10" />
+    <Property Name="ISN_EMPRESA_EXTERNA" Type="char" MaxLength="10" />
+    <Property Name="DAT_INICIO_SENHA" Type="smalldatetime" />
+    <Property Name="DAT_FINAL_SENHA" Type="smalldatetime" />
+    <Property Name="TIP_STATUS" Type="tinyint" />
+    <Property Name="NUM_RI" Type="varchar" MaxLength="30" />
+    <Property Name="TIP_AFAZER_PROPRIO" Type="tinyint" />
+    <Property Name="ISN_PERFIL" Type="int" />
+    <Property Name="NUM_INSCRICAO_ESTADUAL" Type="char" MaxLength="20" />
+    <Property Name="NUM_INSCRICAO_MUNICIPAL" Type="char" MaxLength="20" />
+    <Property Name="ISN_CIDADE" Type="int" />
+    <Property Name="TIP_CLASSE_PESSOA" Type="tinyint" />
+    <Property Name="IMG_PESSOA" Type="ntext" />
+    <Property Name="DAT_INICIO_AFASTAMENTO" Type="smalldatetime" />
+    <Property Name="DAT_FINAL_AFASTAMENTO" Type="smalldatetime" />
+  </EntityType>
+  <EntityType Name="PRO_PROCESSO">
+    <Key>
+      <PropertyRef Name="ISN_PROCESSO" />
+    </Key>
+    <Property Name="ISN_PROCESSO" Type="int" Nullable="false" />
+    <Property Name="ISN_ACAO" Type="int" />
+    <Property Name="ISN_PROBABILIDADE" Type="int" />
+    <Property Name="ISN_EMPRESA" Type="int" Nullable="false" />
+    <Property Name="ISN_RITO" Type="int" />
+    <Property Name="ISN_NATUREZA" Type="int" />
+    <Property Name="NUM_PASTA" Type="varchar" MaxLength="30" />
+    <Property Name="NOM_PROCESSO" Type="varchar" MaxLength="200" />
+    <Property Name="DSC_OBJETO" Type="varchar" MaxLength="100" />
+    <Property Name="VLR_CAUSA" Type="decimal" Precision="15" Scale="2" />
+    <Property Name="PCT_RISCO" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="STA_PROCESSO" Type="char" MaxLength="1" />
+    <Property Name="STA_CONTABIL" Type="char" MaxLength="1" />
+    <Property Name="DSC_CONTA_CONTABIL" Type="varchar" MaxLength="20" />
+    <Property Name="ISN_INDICE_FINANCEIRO" Type="int" />
+    <Property Name="PCT_TAXA" Type="decimal" Precision="4" Scale="2" />
+    <Property Name="TIP_EXPRESSAO" Type="int" />
+    <Property Name="TIP_INDICE" Type="int" />
+    <Property Name="ISN_REFERENCIA" Type="int" />
+    <Property Name="DSC_OBSERVACAO_001" Type="varchar" MaxLength="500" />
+    <Property Name="ISN_MATERIA" Type="int" />
+    <Property Name="ISN_PESSOA_PRIORIDADE" Type="int" />
+    <Property Name="ISN_PROBABILIDADE_PERDA" Type="int" />
+    <Property Name="ISN_FASE" Type="int" />
+    <Property Name="ISN_TIPO_RISCO" Type="int" />
+    <Property Name="VLR_PROVISIONADO" Type="decimal" Precision="15" Scale="2" />
+    <Property Name="VLR_FINAL_CAUSA" Type="decimal" Precision="15" Scale="2" />
+    <Property Name="ISN_TIPO_RESULTADO" Type="int" />
+    <Property Name="DAT_FASE" Type="smalldatetime" />
+    <Property Name="COD_PROCESSO" Type="char" MaxLength="10" />
+    <Property Name="COD_BARRA" Type="char" MaxLength="20" />
+    <Property Name="NUM_SEQUENCIAL" Type="smallint" />
+    <Property Name="COD_EXTERNO" Type="varchar" MaxLength="100" />
+    <Property Name="ISN_PESSOA_CLIENTE" Type="int" />
+    <Property Name="DSC_PARECER" Type="ntext" />
+    <Property Name="ISN_CONTRATO" Type="int" />
+    <Property Name="ISN_PROCESSO_PAI" Type="int" />
+    <Property Name="ISN_GRUPO_PROCESSO" Type="int" />
+    <Property Name="VLR_ATUALIZADO_CAUSA" Type="decimal" Precision="15" Scale="2" />
+    <Property Name="ISN_SERVICO" Type="int" />
+    <Property Name="STA_PROCESSO_ANTERIOR" Type="tinyint" />
+    <Property Name="DAT_CADASTRO" Type="smalldatetime" />
+    <Property Name="DAT_RESULTADO" Type="smalldatetime" />
+    <Property Name="DSC_RESULTADO" Type="ntext" />
+    <Property Name="ISN_CENTRO_CUSTO" Type="int" />
+    <Property Name="ISN_PESSOA_CREDENCIADO" Type="int" />
+    <Property Name="VLR_CONTINGENCIA" Type="decimal" Precision="15" Scale="2" />
+    <Property Name="DAT_DISTRIBUICAO" Type="smalldatetime" />
+    <Property Name="DAT_CITACAO" Type="smalldatetime" />
+    <Property Name="DAT_STATUS" Type="smalldatetime" />
+    <Property Name="NUM_PASTA_AUX" Type="int" />
+    <Property Name="DSC_OBSERVACAO" Type="ntext" />
+    <Property Name="DAT_RECEBIMENTO_INICIAL" Type="smalldatetime" />
+    <Property Name="DAT_ACORDO_PRIMEIRA_AUDIENCIA" Type="smalldatetime" />
+    <Property Name="DAT_AUSENCIA_PRIMEIRA_AUDIENCIA" Type="smalldatetime" />
+    <Property Name="DAT_ARQUIVADO_APOS_AUDIENCIA" Type="smalldatetime" />
+    <Property Name="DAT_PRIMEIRA_AUDIENCIA" Type="smalldatetime" />
+    <Property Name="DAT_ACORDO_EXCLUSAO_POLO" Type="smalldatetime" />
+    <Property Name="TIP_ELETRONICO" Type="tinyint" />
+    <Property Name="NUM_EMPRESA" Type="smallint" />
+    <Property Name="NUM_PLANO" Type="smallint" />
+    <Property Name="DAT_VLR_PROVISIONADO" Type="smalldatetime" />
+    <Property Name="TIP_PROCESSO" Type="tinyint" />
+    <Property Name="TIP_MATERIA_PROCESSO" Type="tinyint" />
+    <Property Name="TIP_SUSPENSAO_EXIGIBILIDADE" Type="tinyint" />
+    <Property Name="TIP_MONTANTE_INTEGRAL" Type="tinyint" />
+    <Property Name="TIP_ORIGEM_PROCESSO" Type="tinyint" />
+    <Property Name="DSC_TEMPO_TRAMITACAO" Type="varchar" MaxLength="100" />
+    <Property Name="NUM_TEMPO_TRAMITACAO" Type="int" />
+    <Property Name="DAT_LIQUIDACAO" Type="smalldatetime" />
+    <Property Name="TIP_ESTRATEGICO" Type="tinyint" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'LYSIS-HML.dbo.RBI_RELATORIO_BI' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="RBI_RELATORIO_BI">
+    <Key>
+      <PropertyRef Name="ISN_RELATORIO_BI" />
+      <PropertyRef Name="NOM_RELATORIO_BI" />
+      <PropertyRef Name="COD_RELATORIO_BI" />
+      <PropertyRef Name="TAB_RELATORIO_BI" />
+      <PropertyRef Name="COL_RELATORIO_BI" />
+      <PropertyRef Name="OP_LOGICO_RELATORIO_BI" />
+    </Key>
+    <Property Name="ISN_RELATORIO_BI" Type="int" Nullable="false" />
+    <Property Name="NOM_RELATORIO_BI" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="COD_RELATORIO_BI" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="TAB_RELATORIO_BI" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="COL_RELATORIO_BI" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="OP_LOGICO_RELATORIO_BI" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="COD_RELATORIO_BI_AUX" Type="varchar" MaxLength="200" />
+    <Property Name="TIP_RELATORIO_AUX" Type="int" />
+    <Property Name="TAB_RELATORIO_BI_AUX" Type="varchar" MaxLength="200" />
+    <Property Name="COL_RELATORIO_BI_AUX" Type="varchar" MaxLength="200" />
+    <Property Name="OP_LOGICO_RELATORIO_BI_AUX" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'LYSIS-HML.dbo.VPP_PARTE_PROCESSO' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VPP_PARTE_PROCESSO">
+    <Key>
+      <PropertyRef Name="ISN_PROCESSO" />
+    </Key>
+    <Property Name="ISN_PESSOA" Type="int" />
+    <Property Name="ISN_PROCESSO" Type="int" Nullable="false" />
+    <Property Name="ISN_TIPO_PARTE" Type="int" />
+    <Property Name="TIP_CLIENTE" Type="int" />
+    <Property Name="ISN_MOTIVO_DESLIGAMENTO" Type="int" />
+    <Property Name="DSC_OBSERVACAO_DESLIGAMENTO" Type="varchar" MaxLength="100" />
+    <Property Name="DAT_DESLIGAMENTO" Type="smalldatetime" />
+    <Property Name="TIP_POLO_ATIVO" Type="tinyint" />
+    <Property Name="ISN_TIPO_OBJETO" Type="int" />
+    <Property Name="TIP_PROVISAO" Type="tinyint" />
+  </EntityType>
+  <Association Name="FK_EMP_GPE">
+    <End Role="EMP_EMPRESA" Type="Self.EMP_EMPRESA" Multiplicity="1" />
+    <End Role="GPE_GRUPO_PESSOA" Type="Self.GPE_GRUPO_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMP_EMPRESA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Principal>
+      <Dependent Role="GPE_GRUPO_PESSOA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EMP_MIT">
+    <End Role="EMP_EMPRESA" Type="Self.EMP_EMPRESA" Multiplicity="1" />
+    <End Role="EMP_EMPRESA1" Type="Self.EMP_EMPRESA" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="EMP_EMPRESA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Principal>
+      <Dependent Role="EMP_EMPRESA1">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EMP_PES">
+    <End Role="EMP_EMPRESA" Type="Self.EMP_EMPRESA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMP_EMPRESA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EMP_PRO">
+    <End Role="EMP_EMPRESA" Type="Self.EMP_EMPRESA" Multiplicity="1" />
+    <End Role="PRO_PROCESSO" Type="Self.PRO_PROCESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMP_EMPRESA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Principal>
+      <Dependent Role="PRO_PROCESSO">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FUN_ACE">
+    <End Role="FUN_FUNCAO" Type="Self.FUN_FUNCAO" Multiplicity="1" />
+    <End Role="ACE_ACESSO" Type="Self.ACE_ACESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUN_FUNCAO">
+        <PropertyRef Name="ISN_FUNCAO" />
+      </Principal>
+      <Dependent Role="ACE_ACESSO">
+        <PropertyRef Name="ISN_FUNCAO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GPE_PES">
+    <End Role="GPE_GRUPO_PESSOA" Type="Self.GPE_GRUPO_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GPE_GRUPO_PESSOA">
+        <PropertyRef Name="ISN_GRUPO_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA">
+        <PropertyRef Name="ISN_GRUPO_PESSOA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PDA_DPA">
+    <End Role="PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS" Type="Self.PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS" Multiplicity="0..1" />
+    <End Role="DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS" Type="Self.DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS">
+        <PropertyRef Name="ISN_PARAMETRO_DISPONIBILIDADE_ANALYTICS" />
+      </Principal>
+      <Dependent Role="DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS">
+        <PropertyRef Name="ISN_PARAMETRO_DISPONIBILIDADE_ANALYTICS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_ACE">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="1" />
+    <End Role="ACE_ACESSO" Type="Self.ACE_ACESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="ACE_ACESSO">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_CLI_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_CLIENTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_CLI_PRO">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PRO_PROCESSO" Type="Self.PRO_PROCESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PRO_PROCESSO">
+        <PropertyRef Name="ISN_PESSOA_CLIENTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_CRE_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_CREDENCIADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_CRE_PRO">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PRO_PROCESSO" Type="Self.PRO_PROCESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PRO_PROCESSO">
+        <PropertyRef Name="ISN_PESSOA_CREDENCIADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_EMP">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="1" />
+    <End Role="EMP_EMPRESA" Type="Self.EMP_EMPRESA" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="EMP_EMPRESA">
+        <PropertyRef Name="ISN_EMPRESA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_PES_INDICADORA">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_INDICADORA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_PRO_PRI">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PRO_PROCESSO" Type="Self.PRO_PROCESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PRO_PROCESSO">
+        <PropertyRef Name="ISN_PESSOA_PRIORIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PES_REP_PES">
+    <End Role="PES_PESSOA" Type="Self.PES_PESSOA" Multiplicity="0..1" />
+    <End Role="PES_PESSOA1" Type="Self.PES_PESSOA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PES_PESSOA">
+        <PropertyRef Name="ISN_PESSOA" />
+      </Principal>
+      <Dependent Role="PES_PESSOA1">
+        <PropertyRef Name="ISN_PESSOA_REPRESENTANTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRO_PRO_PAI">
+    <End Role="PRO_PROCESSO" Type="Self.PRO_PROCESSO" Multiplicity="0..1" />
+    <End Role="PRO_PROCESSO1" Type="Self.PRO_PROCESSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRO_PROCESSO">
+        <PropertyRef Name="ISN_PROCESSO" />
+      </Principal>
+      <Dependent Role="PRO_PROCESSO1">
+        <PropertyRef Name="ISN_PROCESSO_PAI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="ACE_ACESSO" EntityType="Self.ACE_ACESSO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS" EntityType="Self.DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EMP_EMPRESA" EntityType="Self.EMP_EMPRESA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FUN_FUNCAO" EntityType="Self.FUN_FUNCAO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GPE_GRUPO_PESSOA" EntityType="Self.GPE_GRUPO_PESSOA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS" EntityType="Self.PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PES_PESSOA" EntityType="Self.PES_PESSOA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRO_PROCESSO" EntityType="Self.PRO_PROCESSO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RBI_RELATORIO_BI" EntityType="Self.RBI_RELATORIO_BI" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [RBI_RELATORIO_BI].[ISN_RELATORIO_BI] AS [ISN_RELATORIO_BI], 
+    [RBI_RELATORIO_BI].[NOM_RELATORIO_BI] AS [NOM_RELATORIO_BI], 
+    [RBI_RELATORIO_BI].[COD_RELATORIO_BI] AS [COD_RELATORIO_BI], 
+    [RBI_RELATORIO_BI].[TAB_RELATORIO_BI] AS [TAB_RELATORIO_BI], 
+    [RBI_RELATORIO_BI].[COL_RELATORIO_BI] AS [COL_RELATORIO_BI], 
+    [RBI_RELATORIO_BI].[OP_LOGICO_RELATORIO_BI] AS [OP_LOGICO_RELATORIO_BI], 
+    [RBI_RELATORIO_BI].[COD_RELATORIO_BI_AUX] AS [COD_RELATORIO_BI_AUX], 
+    [RBI_RELATORIO_BI].[TIP_RELATORIO_AUX] AS [TIP_RELATORIO_AUX], 
+    [RBI_RELATORIO_BI].[TAB_RELATORIO_BI_AUX] AS [TAB_RELATORIO_BI_AUX], 
+    [RBI_RELATORIO_BI].[COL_RELATORIO_BI_AUX] AS [COL_RELATORIO_BI_AUX], 
+    [RBI_RELATORIO_BI].[OP_LOGICO_RELATORIO_BI_AUX] AS [OP_LOGICO_RELATORIO_BI_AUX]
+    FROM [dbo].[RBI_RELATORIO_BI] AS [RBI_RELATORIO_BI]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VPP_PARTE_PROCESSO" EntityType="Self.VPP_PARTE_PROCESSO" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VPP_PARTE_PROCESSO].[ISN_PESSOA] AS [ISN_PESSOA], 
+    [VPP_PARTE_PROCESSO].[ISN_PROCESSO] AS [ISN_PROCESSO], 
+    [VPP_PARTE_PROCESSO].[ISN_TIPO_PARTE] AS [ISN_TIPO_PARTE], 
+    [VPP_PARTE_PROCESSO].[TIP_CLIENTE] AS [TIP_CLIENTE], 
+    [VPP_PARTE_PROCESSO].[ISN_MOTIVO_DESLIGAMENTO] AS [ISN_MOTIVO_DESLIGAMENTO], 
+    [VPP_PARTE_PROCESSO].[DSC_OBSERVACAO_DESLIGAMENTO] AS [DSC_OBSERVACAO_DESLIGAMENTO], 
+    [VPP_PARTE_PROCESSO].[DAT_DESLIGAMENTO] AS [DAT_DESLIGAMENTO], 
+    [VPP_PARTE_PROCESSO].[TIP_POLO_ATIVO] AS [TIP_POLO_ATIVO], 
+    [VPP_PARTE_PROCESSO].[ISN_TIPO_OBJETO] AS [ISN_TIPO_OBJETO], 
+    [VPP_PARTE_PROCESSO].[TIP_PROVISAO] AS [TIP_PROVISAO]
+    FROM [dbo].[VPP_PARTE_PROCESSO] AS [VPP_PARTE_PROCESSO]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_EMP_GPE" Association="Self.FK_EMP_GPE">
+      <End Role="EMP_EMPRESA" EntitySet="EMP_EMPRESA" />
+      <End Role="GPE_GRUPO_PESSOA" EntitySet="GPE_GRUPO_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EMP_MIT" Association="Self.FK_EMP_MIT">
+      <End Role="EMP_EMPRESA" EntitySet="EMP_EMPRESA" />
+      <End Role="EMP_EMPRESA1" EntitySet="EMP_EMPRESA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EMP_PES" Association="Self.FK_EMP_PES">
+      <End Role="EMP_EMPRESA" EntitySet="EMP_EMPRESA" />
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EMP_PRO" Association="Self.FK_EMP_PRO">
+      <End Role="EMP_EMPRESA" EntitySet="EMP_EMPRESA" />
+      <End Role="PRO_PROCESSO" EntitySet="PRO_PROCESSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FUN_ACE" Association="Self.FK_FUN_ACE">
+      <End Role="FUN_FUNCAO" EntitySet="FUN_FUNCAO" />
+      <End Role="ACE_ACESSO" EntitySet="ACE_ACESSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GPE_PES" Association="Self.FK_GPE_PES">
+      <End Role="GPE_GRUPO_PESSOA" EntitySet="GPE_GRUPO_PESSOA" />
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PDA_DPA" Association="Self.FK_PDA_DPA">
+      <End Role="PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS" EntitySet="PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS" />
+      <End Role="DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS" EntitySet="DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_ACE" Association="Self.FK_PES_ACE">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="ACE_ACESSO" EntitySet="ACE_ACESSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_CLI_PES" Association="Self.FK_PES_CLI_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_CLI_PRO" Association="Self.FK_PES_CLI_PRO">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PRO_PROCESSO" EntitySet="PRO_PROCESSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_CRE_PES" Association="Self.FK_PES_CRE_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_CRE_PRO" Association="Self.FK_PES_CRE_PRO">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PRO_PROCESSO" EntitySet="PRO_PROCESSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_EMP" Association="Self.FK_PES_EMP">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="EMP_EMPRESA" EntitySet="EMP_EMPRESA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_PES_INDICADORA" Association="Self.FK_PES_PES_INDICADORA">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_PRO_PRI" Association="Self.FK_PES_PRO_PRI">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PRO_PROCESSO" EntitySet="PRO_PROCESSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PES_REP_PES" Association="Self.FK_PES_REP_PES">
+      <End Role="PES_PESSOA" EntitySet="PES_PESSOA" />
+      <End Role="PES_PESSOA1" EntitySet="PES_PESSOA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRO_PRO_PAI" Association="Self.FK_PRO_PRO_PAI">
+      <End Role="PRO_PROCESSO" EntitySet="PRO_PROCESSO" />
+      <End Role="PRO_PROCESSO1" EntitySet="PRO_PROCESSO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

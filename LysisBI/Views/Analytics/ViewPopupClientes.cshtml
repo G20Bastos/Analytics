@@ -1,0 +1,54 @@
+﻿@model LysisBI.Models.ClienteModel
+
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+</head>
+
+<body onunload="javascript:fechaJanelaSeSubmit()">
+    <div id="divPrincipal">
+
+        <b>&nbsp;Selecionar cliente(s) ou <u>@Html.ActionLink(" ir para grupos", "SelecaoGrupo", "Analytics")</u> </b>
+        <br />
+
+        @using (Html.BeginForm("ViewPopupClientes", "Analytics", FormMethod.Post, new { id = "form1"}))
+
+
+        {
+            @Html.CheckBoxFor(m => m.Selected, new { @class = "chk" })<span>Selecionar Todos</span> <br />
+            foreach (var item in Model.ListaDeClientes)
+            {
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"
+                               name="SelectedClientes"
+                               class="chk"
+                               checked=@item.Selected
+                               value="@item.Value" /> @item.Text
+                        </label>
+                    </div>
+            }
+            <div>
+                <b><u><a href="#" class="submitForm">Selecionar</a></u></b>
+
+
+            </div>
+
+        }
+
+
+    </div>
+
+    
+
+    <!-- Scripts     -->
+    <script src="~/scripts/funcoes.js"></script>
+   
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="EMP_EMPRESA">
+      <EntityTypeMapping TypeName="Model1.EMP_EMPRESA">
+        <MappingFragment StoreEntitySet="EMP_EMPRESA">
+          <ScalarProperty Name="NUM_TOKEN" ColumnName="NUM_TOKEN" />
+          <ScalarProperty Name="TIP_VALOR_VENCIMENTO" ColumnName="TIP_VALOR_VENCIMENTO" />
+          <ScalarProperty Name="TIP_RESTRICAO_OPERACAO" ColumnName="TIP_RESTRICAO_OPERACAO" />
+          <ScalarProperty Name="TIP_DRE_ANALITICO" ColumnName="TIP_DRE_ANALITICO" />
+          <ScalarProperty Name="DSC_DIRETORIO_DRIVE" ColumnName="DSC_DIRETORIO_DRIVE" />
+          <ScalarProperty Name="DSC_SENHA_AVISO_URGENTE" ColumnName="DSC_SENHA_AVISO_URGENTE" />
+          <ScalarProperty Name="DSC_LOGIN_AVISO_URGENTE" ColumnName="DSC_LOGIN_AVISO_URGENTE" />
+          <ScalarProperty Name="NUM_ESPACO_OCUPADO" ColumnName="NUM_ESPACO_OCUPADO" />
+          <ScalarProperty Name="TIP_INF_ADICIONAL_ANALYTICS" ColumnName="TIP_INF_ADICIONAL_ANALYTICS" />
+          <ScalarProperty Name="TIP_INTEGRACAO_AUTOMATICA_DIARIA" ColumnName="TIP_INTEGRACAO_AUTOMATICA_DIARIA" />
+          <ScalarProperty Name="ISN_EMPRESA" ColumnName="ISN_EMPRESA" />
+          <ScalarProperty Name="TIP_NOME_VISIVEL" ColumnName="TIP_NOME_VISIVEL" />
+          <ScalarProperty Name="TIP_MODULO_FINANCEIRO" ColumnName="TIP_MODULO_FINANCEIRO" />
+          <ScalarProperty Name="TIP_MODULO_ADMINISTRADOR_SITE" ColumnName="TIP_MODULO_ADMINISTRADOR_SITE" />
+          <ScalarProperty Name="TIP_CAMPO_VAZIO" ColumnName="TIP_CAMPO_VAZIO" />
+          <ScalarProperty Name="TIP_INFORMACAO_FINANCEIRA" ColumnName="TIP_INFORMACAO_FINANCEIRA" />
+          <ScalarProperty Name="TIP_SELECIONA_EVENTOS" ColumnName="TIP_SELECIONA_EVENTOS" />
+          <ScalarProperty Name="NOM_PROBABILIDADE" ColumnName="NOM_PROBABILIDADE" />
+          <ScalarProperty Name="TIP_EVENTO_AFAZER" ColumnName="TIP_EVENTO_AFAZER" />
+          <ScalarProperty Name="ISN_PLANO" ColumnName="ISN_PLANO" />
+          <ScalarProperty Name="DAT_EXPIRACAO_ASSINATURA" ColumnName="DAT_EXPIRACAO_ASSINATURA" />
+          <ScalarProperty Name="TIP_ATUALIZACAO_AUTOMATICA" ColumnName="TIP_ATUALIZACAO_AUTOMATICA" />
+          <ScalarProperty Name="NR_ETIQUETA_PAGINA" ColumnName="NR_ETIQUETA_PAGINA" />
+          <ScalarProperty Name="TIP_AFAZER_RESUMIDO" ColumnName="TIP_AFAZER_RESUMIDO" />
+          <ScalarProperty Name="TIP_ACESSO_PROCESSO" ColumnName="TIP_ACESSO_PROCESSO" />
+          <ScalarProperty Name="TIP_SELECIONA_EVENTOS_MARCADO" ColumnName="TIP_SELECIONA_EVENTOS_MARCADO" />
+          <ScalarProperty Name="NUM_ULTIMA_FATURA" ColumnName="NUM_ULTIMA_FATURA" />
+          <ScalarProperty Name="DSC_MENSAGEM_FATURA_INI" ColumnName="DSC_MENSAGEM_FATURA_INI" />
+          <ScalarProperty Name="DSC_MENSAGEM_FATURA_FIM" ColumnName="DSC_MENSAGEM_FATURA_FIM" />
+          <ScalarProperty Name="NOM_RESPONSAVEL_FINANCEIRO" ColumnName="NOM_RESPONSAVEL_FINANCEIRO" />
+          <ScalarProperty Name="NOM_CARGO_RESPONSAVEL" ColumnName="NOM_CARGO_RESPONSAVEL" />
+          <ScalarProperty Name="TIP_SELECIONA_EVENTOS_INTEGRACAO" ColumnName="TIP_SELECIONA_EVENTOS_INTEGRACAO" />
+          <ScalarProperty Name="TIP_VALOR_PROBABILIDADE" ColumnName="TIP_VALOR_PROBABILIDADE" />
+          <ScalarProperty Name="TIP_PROCESSO_RECORRENTE" ColumnName="TIP_PROCESSO_RECORRENTE" />
+          <ScalarProperty Name="TIP_GERA_NUMERO_PASTA" ColumnName="TIP_GERA_NUMERO_PASTA" />
+          <ScalarProperty Name="TIP_CONTA_PREVISTA" ColumnName="TIP_CONTA_PREVISTA" />
+          <ScalarProperty Name="TIP_INTEGRACAO_SISTEMA_EXTERNO" ColumnName="TIP_INTEGRACAO_SISTEMA_EXTERNO" />
+          <ScalarProperty Name="TIP_CORRECAO_VALORES" ColumnName="TIP_CORRECAO_VALORES" />
+          <ScalarProperty Name="TIP_GRUPO_PROCESSO" ColumnName="TIP_GRUPO_PROCESSO" />
+          <ScalarProperty Name="TIP_PAUTA_EVENTOS" ColumnName="TIP_PAUTA_EVENTOS" />
+          <ScalarProperty Name="TIP_DATA_CONFIRMACAO" ColumnName="TIP_DATA_CONFIRMACAO" />
+          <ScalarProperty Name="TIP_NATUREZA" ColumnName="TIP_NATUREZA" />
+          <ScalarProperty Name="TIP_PRAZO_ANALISE" ColumnName="TIP_PRAZO_ANALISE" />
+          <ScalarProperty Name="TIP_GRUPO_PROCEDIMENTO" ColumnName="TIP_GRUPO_PROCEDIMENTO" />
+          <ScalarProperty Name="TIP_ALTERA_REFERENCIA" ColumnName="TIP_ALTERA_REFERENCIA" />
+          <ScalarProperty Name="TIP_FASE_ANDAMENTO" ColumnName="TIP_FASE_ANDAMENTO" />
+          <ScalarProperty Name="TIP_PERIODO_INTEGRACAO" ColumnName="TIP_PERIODO_INTEGRACAO" />
+          <ScalarProperty Name="TIP_MOTIVO_DESLIGAMENTO" ColumnName="TIP_MOTIVO_DESLIGAMENTO" />
+          <ScalarProperty Name="TIP_PESQUISA_GERAL" ColumnName="TIP_PESQUISA_GERAL" />
+          <ScalarProperty Name="TIP_ALTERA_MOVIMENTACAO_PASTA" ColumnName="TIP_ALTERA_MOVIMENTACAO_PASTA" />
+          <ScalarProperty Name="TIP_FATURA" ColumnName="TIP_FATURA" />
+          <ScalarProperty Name="NUM_AREA_DOCUMENTOS" ColumnName="NUM_AREA_DOCUMENTOS" />
+          <ScalarProperty Name="TIP_VALOR_PEDIDO" ColumnName="TIP_VALOR_PEDIDO" />
+          <ScalarProperty Name="TIP_CENTRO_CUSTO" ColumnName="TIP_CENTRO_CUSTO" />
+          <ScalarProperty Name="IMG_LOGOMARCA" ColumnName="IMG_LOGOMARCA" />
+          <ScalarProperty Name="NOM_EXTENSAO_LOGOMARCA" ColumnName="NOM_EXTENSAO_LOGOMARCA" />
+          <ScalarProperty Name="TIP_POLO_ATIVO" ColumnName="TIP_POLO_ATIVO" />
+          <ScalarProperty Name="TIP_ENCERRAMENTO" ColumnName="TIP_ENCERRAMENTO" />
+          <ScalarProperty Name="TIP_PUBLICACAO" ColumnName="TIP_PUBLICACAO" />
+          <ScalarProperty Name="COD_CONTRATO" ColumnName="COD_CONTRATO" />
+          <ScalarProperty Name="TIP_AFAZER_OUTROS_USUARIOS" ColumnName="TIP_AFAZER_OUTROS_USUARIOS" />
+          <ScalarProperty Name="TIP_AFAZER_SEPARADO" ColumnName="TIP_AFAZER_SEPARADO" />
+          <ScalarProperty Name="NUM_ULTIMO_RECIBO" ColumnName="NUM_ULTIMO_RECIBO" />
+          <ScalarProperty Name="TIP_EXIBE_DADOS_GERAIS_EMAIL" ColumnName="TIP_EXIBE_DADOS_GERAIS_EMAIL" />
+          <ScalarProperty Name="TIP_CONTABILIZACOES" ColumnName="TIP_CONTABILIZACOES" />
+          <ScalarProperty Name="NUM_DIAS_RESPONSAVEL" ColumnName="NUM_DIAS_RESPONSAVEL" />
+          <ScalarProperty Name="TIP_CONFIRMACAO_EMAIL" ColumnName="TIP_CONFIRMACAO_EMAIL" />
+          <ScalarProperty Name="TIP_GERA_NUMERO_CONTRATO" ColumnName="TIP_GERA_NUMERO_CONTRATO" />
+          <ScalarProperty Name="TIP_PRESTACAO_CONTAS" ColumnName="TIP_PRESTACAO_CONTAS" />
+          <ScalarProperty Name="NUM_ULTIMA_PRESTACAO_CONTAS" ColumnName="NUM_ULTIMA_PRESTACAO_CONTAS" />
+          <ScalarProperty Name="TIP_GERA_CONTRATO" ColumnName="TIP_GERA_CONTRATO" />
+          <ScalarProperty Name="TIP_GERA_PETICAO" ColumnName="TIP_GERA_PETICAO" />
+          <ScalarProperty Name="TIP_VERIFICA_CPF_CNPJ" ColumnName="TIP_VERIFICA_CPF_CNPJ" />
+          <ScalarProperty Name="TIP_EXIBE_DOCUMENTO_EVENTO" ColumnName="TIP_EXIBE_DOCUMENTO_EVENTO" />
+          <ScalarProperty Name="NUM_ULTIMO_ADIANTAMENTO" ColumnName="NUM_ULTIMO_ADIANTAMENTO" />
+          <ScalarProperty Name="TIP_EXIGE_CPF_CNPJ" ColumnName="TIP_EXIGE_CPF_CNPJ" />
+          <ScalarProperty Name="TIP_CONFIRMA_REALIZACAO_EVENTO" ColumnName="TIP_CONFIRMA_REALIZACAO_EVENTO" />
+          <ScalarProperty Name="TIP_CORRECAO_VALORES_COMPOSTA" ColumnName="TIP_CORRECAO_VALORES_COMPOSTA" />
+          <ScalarProperty Name="TIP_DESTACA_EVENTO" ColumnName="TIP_DESTACA_EVENTO" />
+          <ScalarProperty Name="TIP_MODELO_DOCUMENTO" ColumnName="TIP_MODELO_DOCUMENTO" />
+          <ScalarProperty Name="TIP_PREPROCESSO" ColumnName="TIP_PREPROCESSO" />
+          <ScalarProperty Name="TIP_MOTIVO_DESLIGAMENTO_ADV" ColumnName="TIP_MOTIVO_DESLIGAMENTO_ADV" />
+          <ScalarProperty Name="TIP_BAIXA_PARCIAL" ColumnName="TIP_BAIXA_PARCIAL" />
+          <ScalarProperty Name="TIP_CONTROLE_COBRANCA" ColumnName="TIP_CONTROLE_COBRANCA" />
+          <ScalarProperty Name="TIP_EXIGE_PARTE" ColumnName="TIP_EXIGE_PARTE" />
+          <ScalarProperty Name="NUM_DIA_INICIAL_LANCAMENTO" ColumnName="NUM_DIA_INICIAL_LANCAMENTO" />
+          <ScalarProperty Name="NUM_DIA_FINAL_LANCAMENTO" ColumnName="NUM_DIA_FINAL_LANCAMENTO" />
+          <ScalarProperty Name="TIP_GERA_NUMERO_ATO" ColumnName="TIP_GERA_NUMERO_ATO" />
+          <ScalarProperty Name="TIP_TAREFA_INDIVIDUAL" ColumnName="TIP_TAREFA_INDIVIDUAL" />
+          <ScalarProperty Name="NUM_DIA_LANCAMENTO_ATIVIDADE" ColumnName="NUM_DIA_LANCAMENTO_ATIVIDADE" />
+          <ScalarProperty Name="TIP_RATEIO_CENTRO_CUSTO" ColumnName="TIP_RATEIO_CENTRO_CUSTO" />
+          <ScalarProperty Name="TIP_GERA_NUMERO_SERVICO" ColumnName="TIP_GERA_NUMERO_SERVICO" />
+          <ScalarProperty Name="DAT_EXPIRACAO_ASSINATURA_CRIP" ColumnName="DAT_EXPIRACAO_ASSINATURA_CRIP" />
+          <ScalarProperty Name="TIP_LIMINAR" ColumnName="TIP_LIMINAR" />
+          <ScalarProperty Name="TIP_NOTIFICA_INCLUSAO_PARTE" ColumnName="TIP_NOTIFICA_INCLUSAO_PARTE" />
+          <ScalarProperty Name="TIP_IMPORTACAO_PROCESSO" ColumnName="TIP_IMPORTACAO_PROCESSO" />
+          <ScalarProperty Name="TIP_ULTIMA_INSTANCIA" ColumnName="TIP_ULTIMA_INSTANCIA" />
+          <ScalarProperty Name="TIP_APROVA_PAGAMENTO" ColumnName="TIP_APROVA_PAGAMENTO" />
+          <ScalarProperty Name="TIP_FORMATO_TITULO" ColumnName="TIP_FORMATO_TITULO" />
+          <ScalarProperty Name="TIP_DUPLICIDADE_RECORRENCIA" ColumnName="TIP_DUPLICIDADE_RECORRENCIA" />
+          <ScalarProperty Name="TIP_MODULO_ACORDO" ColumnName="TIP_MODULO_ACORDO" />
+          <ScalarProperty Name="TIP_INTEGRACAO_AUTOMATICA" ColumnName="TIP_INTEGRACAO_AUTOMATICA" />
+          <ScalarProperty Name="DSC_ENDERECO_GED" ColumnName="DSC_ENDERECO_GED" />
+          <ScalarProperty Name="TIP_ORDEM_EXIBICAO_DOCUMENTO" ColumnName="TIP_ORDEM_EXIBICAO_DOCUMENTO" />
+          <ScalarProperty Name="TIP_RESPONSAVEL_EVENTO" ColumnName="TIP_RESPONSAVEL_EVENTO" />
+          <ScalarProperty Name="TIP_CAPTCHA_AUTOMATICO" ColumnName="TIP_CAPTCHA_AUTOMATICO" />
+          <ScalarProperty Name="TIP_FILTRO_TEXTO_PADRAO" ColumnName="TIP_FILTRO_TEXTO_PADRAO" />
+          <ScalarProperty Name="TIP_SERVICO_PRODUTO_CONTRATO" ColumnName="TIP_SERVICO_PRODUTO_CONTRATO" />
+          <ScalarProperty Name="TIP_PRAZO_SERVICO" ColumnName="TIP_PRAZO_SERVICO" />
+          <ScalarProperty Name="TIP_INSTANCIA_ORIGEM" ColumnName="TIP_INSTANCIA_ORIGEM" />
+          <ScalarProperty Name="TIP_EXIGE_RESPONSAVEL_EVENTO" ColumnName="TIP_EXIGE_RESPONSAVEL_EVENTO" />
+          <ScalarProperty Name="TIP_ESOCIAL" ColumnName="TIP_ESOCIAL" />
+          <ScalarProperty Name="TIP_DEMONSTRATIVO_RESULTADO" ColumnName="TIP_DEMONSTRATIVO_RESULTADO" />
+          <ScalarProperty Name="TIP_EDITA_OBSERVACAO_ANEXO" ColumnName="TIP_EDITA_OBSERVACAO_ANEXO" />
+          <ScalarProperty Name="DSC_LOGIN_UPJURIS" ColumnName="DSC_LOGIN_UPJURIS" />
+          <ScalarProperty Name="DSC_SENHA_UPJURIS" ColumnName="DSC_SENHA_UPJURIS" />
+          <ScalarProperty Name="DSC_LOGIN_KURIER" ColumnName="DSC_LOGIN_KURIER" />
+          <ScalarProperty Name="DSC_SENHA_KURIER" ColumnName="DSC_SENHA_KURIER" />
+          <ScalarProperty Name="TIP_ARMAZENAMENTO" ColumnName="TIP_ARMAZENAMENTO" />
+          <ScalarProperty Name="NUM_ULTIMA_NOTA" ColumnName="NUM_ULTIMA_NOTA" />
+          <ScalarProperty Name="TIP_ANALYTICS" ColumnName="TIP_ANALYTICS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUN_FUNCAO">
+      <EntityTypeMapping TypeName="Model1.FUN_FUNCAO">
+        <MappingFragment StoreEntitySet="FUN_FUNCAO">
+          <ScalarProperty Name="ISN_FUNCAO" ColumnName="ISN_FUNCAO" />
+          <ScalarProperty Name="DSC_FUNCAO" ColumnName="DSC_FUNCAO" />
+          <ScalarProperty Name="COD_FUNCAO" ColumnName="COD_FUNCAO" />
+          <ScalarProperty Name="ISN_MODULO" ColumnName="ISN_MODULO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PES_PESSOA">
+      <EntityTypeMapping TypeName="Model1.PES_PESSOA">
+        <MappingFragment StoreEntitySet="PES_PESSOA">
+          <ScalarProperty Name="DAT_FINAL_AFASTAMENTO" ColumnName="DAT_FINAL_AFASTAMENTO" />
+          <ScalarProperty Name="DAT_INICIO_AFASTAMENTO" ColumnName="DAT_INICIO_AFASTAMENTO" />
+          <ScalarProperty Name="IMG_PESSOA" ColumnName="IMG_PESSOA" />
+          <ScalarProperty Name="TIP_CLASSE_PESSOA" ColumnName="TIP_CLASSE_PESSOA" />
+          <ScalarProperty Name="ISN_PESSOA" ColumnName="ISN_PESSOA" />
+          <ScalarProperty Name="ISN_TIPO_PESSOA" ColumnName="ISN_TIPO_PESSOA" />
+          <ScalarProperty Name="ISN_PAIS" ColumnName="ISN_PAIS" />
+          <ScalarProperty Name="ISN_ESTADO" ColumnName="ISN_ESTADO" />
+          <ScalarProperty Name="ISN_EMPRESA" ColumnName="ISN_EMPRESA" />
+          <ScalarProperty Name="ISN_PROFISSAO" ColumnName="ISN_PROFISSAO" />
+          <ScalarProperty Name="NOM_PESSOA" ColumnName="NOM_PESSOA" />
+          <ScalarProperty Name="NOM_FANTASIA" ColumnName="NOM_FANTASIA" />
+          <ScalarProperty Name="DSC_ENDERECO" ColumnName="DSC_ENDERECO" />
+          <ScalarProperty Name="DSC_BAIRRO" ColumnName="DSC_BAIRRO" />
+          <ScalarProperty Name="NOM_CIDADE" ColumnName="NOM_CIDADE" />
+          <ScalarProperty Name="NUM_FONE1" ColumnName="NUM_FONE1" />
+          <ScalarProperty Name="NUM_FONE2" ColumnName="NUM_FONE2" />
+          <ScalarProperty Name="NUM_CELULAR" ColumnName="NUM_CELULAR" />
+          <ScalarProperty Name="NUM_FAX" ColumnName="NUM_FAX" />
+          <ScalarProperty Name="DSC_EMAIL" ColumnName="DSC_EMAIL" />
+          <ScalarProperty Name="DSC_SITE" ColumnName="DSC_SITE" />
+          <ScalarProperty Name="NUM_CNPJ" ColumnName="NUM_CNPJ" />
+          <ScalarProperty Name="NUM_CPF" ColumnName="NUM_CPF" />
+          <ScalarProperty Name="NUM_OAB" ColumnName="NUM_OAB" />
+          <ScalarProperty Name="TIP_ADVOGADO" ColumnName="TIP_ADVOGADO" />
+          <ScalarProperty Name="TIP_INATIVO" ColumnName="TIP_INATIVO" />
+          <ScalarProperty Name="DSC_OBSERVACAO" ColumnName="DSC_OBSERVACAO" />
+          <ScalarProperty Name="DSC_LOGIN" ColumnName="DSC_LOGIN" />
+          <ScalarProperty Name="DSC_SENHA" ColumnName="DSC_SENHA" />
+          <ScalarProperty Name="TIP_LOGIN_INATIVO" ColumnName="TIP_LOGIN_INATIVO" />
+          <ScalarProperty Name="DAT_NASCIMENTO" ColumnName="DAT_NASCIMENTO" />
+          <ScalarProperty Name="DSC_ESTADO_CIVIL" ColumnName="DSC_ESTADO_CIVIL" />
+          <ScalarProperty Name="NUM_RG" ColumnName="NUM_RG" />
+          <ScalarProperty Name="DSC_TRATAMENTO" ColumnName="DSC_TRATAMENTO" />
+          <ScalarProperty Name="NUM_CEP" ColumnName="NUM_CEP" />
+          <ScalarProperty Name="NOM_CONTATO" ColumnName="NOM_CONTATO" />
+          <ScalarProperty Name="ISN_PESSOA_INDICADORA" ColumnName="ISN_PESSOA_INDICADORA" />
+          <ScalarProperty Name="NOM_SIGLA" ColumnName="NOM_SIGLA" />
+          <ScalarProperty Name="DSC_EMAIL2" ColumnName="DSC_EMAIL2" />
+          <ScalarProperty Name="COD_EXTERNO" ColumnName="COD_EXTERNO" />
+          <ScalarProperty Name="ISN_NACIONALIDADE" ColumnName="ISN_NACIONALIDADE" />
+          <ScalarProperty Name="TIP_IMPOSTO" ColumnName="TIP_IMPOSTO" />
+          <ScalarProperty Name="TIP_NOTIFICACAO" ColumnName="TIP_NOTIFICACAO" />
+          <ScalarProperty Name="NUM_CGF" ColumnName="NUM_CGF" />
+          <ScalarProperty Name="NOM_MAE" ColumnName="NOM_MAE" />
+          <ScalarProperty Name="NUM_CTPS" ColumnName="NUM_CTPS" />
+          <ScalarProperty Name="SER_CTPS" ColumnName="SER_CTPS" />
+          <ScalarProperty Name="NUM_PIS" ColumnName="NUM_PIS" />
+          <ScalarProperty Name="DAT_ATUALIZACAO" ColumnName="DAT_ATUALIZACAO" />
+          <ScalarProperty Name="ISN_GRUPO_PESSOA" ColumnName="ISN_GRUPO_PESSOA" />
+          <ScalarProperty Name="ISN_PESSOA_CLIENTE" ColumnName="ISN_PESSOA_CLIENTE" />
+          <ScalarProperty Name="ISN_PESSOA_CREDENCIADO" ColumnName="ISN_PESSOA_CREDENCIADO" />
+          <ScalarProperty Name="TIP_REPRESENTANTE_LEGAL" ColumnName="TIP_REPRESENTANTE_LEGAL" />
+          <ScalarProperty Name="ISN_ACAO" ColumnName="ISN_ACAO" />
+          <ScalarProperty Name="TIP_PUBLICACAO" ColumnName="TIP_PUBLICACAO" />
+          <ScalarProperty Name="ISN_ESTADO_OAB" ColumnName="ISN_ESTADO_OAB" />
+          <ScalarProperty Name="COD_VINCULO" ColumnName="COD_VINCULO" />
+          <ScalarProperty Name="DAT_ULTIMO_ACESSO" ColumnName="DAT_ULTIMO_ACESSO" />
+          <ScalarProperty Name="ISN_PESSOA_REPRESENTANTE" ColumnName="ISN_PESSOA_REPRESENTANTE" />
+          <ScalarProperty Name="DAT_VENCIMENTO_PADRAO" ColumnName="DAT_VENCIMENTO_PADRAO" />
+          <ScalarProperty Name="DSC_COMPLEMENTO_ENDERECO" ColumnName="DSC_COMPLEMENTO_ENDERECO" />
+          <ScalarProperty Name="DSC_ORGAO_EXPEDIDOR" ColumnName="DSC_ORGAO_EXPEDIDOR" />
+          <ScalarProperty Name="ISN_TIPO_SERVICO" ColumnName="ISN_TIPO_SERVICO" />
+          <ScalarProperty Name="ISN_FILIAL_EXTERNA" ColumnName="ISN_FILIAL_EXTERNA" />
+          <ScalarProperty Name="ISN_EMPRESA_EXTERNA" ColumnName="ISN_EMPRESA_EXTERNA" />
+          <ScalarProperty Name="DAT_INICIO_SENHA" ColumnName="DAT_INICIO_SENHA" />
+          <ScalarProperty Name="DAT_FINAL_SENHA" ColumnName="DAT_FINAL_SENHA" />
+          <ScalarProperty Name="TIP_STATUS" ColumnName="TIP_STATUS" />
+          <ScalarProperty Name="NUM_RI" ColumnName="NUM_RI" />
+          <ScalarProperty Name="TIP_AFAZER_PROPRIO" ColumnName="TIP_AFAZER_PROPRIO" />
+          <ScalarProperty Name="ISN_PERFIL" ColumnName="ISN_PERFIL" />
+          <ScalarProperty Name="NUM_INSCRICAO_ESTADUAL" ColumnName="NUM_INSCRICAO_ESTADUAL" />
+          <ScalarProperty Name="NUM_INSCRICAO_MUNICIPAL" ColumnName="NUM_INSCRICAO_MUNICIPAL" />
+          <ScalarProperty Name="ISN_CIDADE" ColumnName="ISN_CIDADE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RBI_RELATORIO_BI">
+      <EntityTypeMapping TypeName="Model1.RBI_RELATORIO_BI">
+        <MappingFragment StoreEntitySet="RBI_RELATORIO_BI">
+          <ScalarProperty Name="ISN_RELATORIO_BI" ColumnName="ISN_RELATORIO_BI" />
+          <ScalarProperty Name="NOM_RELATORIO_BI" ColumnName="NOM_RELATORIO_BI" />
+          <ScalarProperty Name="COD_RELATORIO_BI" ColumnName="COD_RELATORIO_BI" />
+          <ScalarProperty Name="TAB_RELATORIO_BI" ColumnName="TAB_RELATORIO_BI" />
+          <ScalarProperty Name="COL_RELATORIO_BI" ColumnName="COL_RELATORIO_BI" />
+          <ScalarProperty Name="OP_LOGICO_RELATORIO_BI" ColumnName="OP_LOGICO_RELATORIO_BI" />
+          <ScalarProperty Name="COD_RELATORIO_BI_AUX" ColumnName="COD_RELATORIO_BI_AUX" />
+          <ScalarProperty Name="TIP_RELATORIO_AUX" ColumnName="TIP_RELATORIO_AUX" />
+          <ScalarProperty Name="TAB_RELATORIO_BI_AUX" ColumnName="TAB_RELATORIO_BI_AUX" />
+          <ScalarProperty Name="COL_RELATORIO_BI_AUX" ColumnName="COL_RELATORIO_BI_AUX" />
+          <ScalarProperty Name="OP_LOGICO_RELATORIO_BI_AUX" ColumnName="OP_LOGICO_RELATORIO_BI_AUX" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VPP_PARTE_PROCESSO">
+      <EntityTypeMapping TypeName="Model1.VPP_PARTE_PROCESSO">
+        <MappingFragment StoreEntitySet="VPP_PARTE_PROCESSO">
+          <ScalarProperty Name="ISN_PESSOA" ColumnName="ISN_PESSOA" />
+          <ScalarProperty Name="ISN_PROCESSO" ColumnName="ISN_PROCESSO" />
+          <ScalarProperty Name="ISN_TIPO_PARTE" ColumnName="ISN_TIPO_PARTE" />
+          <ScalarProperty Name="TIP_CLIENTE" ColumnName="TIP_CLIENTE" />
+          <ScalarProperty Name="ISN_MOTIVO_DESLIGAMENTO" ColumnName="ISN_MOTIVO_DESLIGAMENTO" />
+          <ScalarProperty Name="DSC_OBSERVACAO_DESLIGAMENTO" ColumnName="DSC_OBSERVACAO_DESLIGAMENTO" />
+          <ScalarProperty Name="DAT_DESLIGAMENTO" ColumnName="DAT_DESLIGAMENTO" />
+          <ScalarProperty Name="TIP_POLO_ATIVO" ColumnName="TIP_POLO_ATIVO" />
+          <ScalarProperty Name="ISN_TIPO_OBJETO" ColumnName="ISN_TIPO_OBJETO" />
+          <ScalarProperty Name="TIP_PROVISAO" ColumnName="TIP_PROVISAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ACE_ACESSO" TypeName="Model1.ACE_ACESSO" StoreEntitySet="ACE_ACESSO">
+      <EndProperty Name="FUN_FUNCAO">
+        <ScalarProperty Name="ISN_FUNCAO" ColumnName="ISN_FUNCAO" />
+      </EndProperty>
+      <EndProperty Name="PES_PESSOA">
+        <ScalarProperty Name="ISN_PESSOA" ColumnName="ISN_PESSOA" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="PRO_PROCESSO">
+      <EntityTypeMapping TypeName="Model1.PRO_PROCESSO">
+        <MappingFragment StoreEntitySet="PRO_PROCESSO">
+          <ScalarProperty Name="TIP_ESTRATEGICO" ColumnName="TIP_ESTRATEGICO" />
+          <ScalarProperty Name="DAT_LIQUIDACAO" ColumnName="DAT_LIQUIDACAO" />
+          <ScalarProperty Name="NUM_TEMPO_TRAMITACAO" ColumnName="NUM_TEMPO_TRAMITACAO" />
+          <ScalarProperty Name="DSC_TEMPO_TRAMITACAO" ColumnName="DSC_TEMPO_TRAMITACAO" />
+          <ScalarProperty Name="TIP_ORIGEM_PROCESSO" ColumnName="TIP_ORIGEM_PROCESSO" />
+          <ScalarProperty Name="TIP_MONTANTE_INTEGRAL" ColumnName="TIP_MONTANTE_INTEGRAL" />
+          <ScalarProperty Name="TIP_SUSPENSAO_EXIGIBILIDADE" ColumnName="TIP_SUSPENSAO_EXIGIBILIDADE" />
+          <ScalarProperty Name="TIP_MATERIA_PROCESSO" ColumnName="TIP_MATERIA_PROCESSO" />
+          <ScalarProperty Name="TIP_PROCESSO" ColumnName="TIP_PROCESSO" />
+          <ScalarProperty Name="DAT_VLR_PROVISIONADO" ColumnName="DAT_VLR_PROVISIONADO" />
+          <ScalarProperty Name="NUM_PLANO" ColumnName="NUM_PLANO" />
+          <ScalarProperty Name="NUM_EMPRESA" ColumnName="NUM_EMPRESA" />
+          <ScalarProperty Name="TIP_ELETRONICO" ColumnName="TIP_ELETRONICO" />
+          <ScalarProperty Name="DAT_ACORDO_EXCLUSAO_POLO" ColumnName="DAT_ACORDO_EXCLUSAO_POLO" />
+          <ScalarProperty Name="DAT_PRIMEIRA_AUDIENCIA" ColumnName="DAT_PRIMEIRA_AUDIENCIA" />
+          <ScalarProperty Name="DAT_ARQUIVADO_APOS_AUDIENCIA" ColumnName="DAT_ARQUIVADO_APOS_AUDIENCIA" />
+          <ScalarProperty Name="DAT_AUSENCIA_PRIMEIRA_AUDIENCIA" ColumnName="DAT_AUSENCIA_PRIMEIRA_AUDIENCIA" />
+          <ScalarProperty Name="DAT_ACORDO_PRIMEIRA_AUDIENCIA" ColumnName="DAT_ACORDO_PRIMEIRA_AUDIENCIA" />
+          <ScalarProperty Name="DAT_RECEBIMENTO_INICIAL" ColumnName="DAT_RECEBIMENTO_INICIAL" />
+          <ScalarProperty Name="DSC_OBSERVACAO" ColumnName="DSC_OBSERVACAO" />
+          <ScalarProperty Name="NUM_PASTA_AUX" ColumnName="NUM_PASTA_AUX" />
+          <ScalarProperty Name="DAT_STATUS" ColumnName="DAT_STATUS" />
+          <ScalarProperty Name="DAT_CITACAO" ColumnName="DAT_CITACAO" />
+          <ScalarProperty Name="DAT_DISTRIBUICAO" ColumnName="DAT_DISTRIBUICAO" />
+          <ScalarProperty Name="VLR_CONTINGENCIA" ColumnName="VLR_CONTINGENCIA" />
+          <ScalarProperty Name="ISN_PESSOA_CREDENCIADO" ColumnName="ISN_PESSOA_CREDENCIADO" />
+          <ScalarProperty Name="ISN_CENTRO_CUSTO" ColumnName="ISN_CENTRO_CUSTO" />
+          <ScalarProperty Name="DSC_RESULTADO" ColumnName="DSC_RESULTADO" />
+          <ScalarProperty Name="DAT_RESULTADO" ColumnName="DAT_RESULTADO" />
+          <ScalarProperty Name="DAT_CADASTRO" ColumnName="DAT_CADASTRO" />
+          <ScalarProperty Name="STA_PROCESSO_ANTERIOR" ColumnName="STA_PROCESSO_ANTERIOR" />
+          <ScalarProperty Name="ISN_SERVICO" ColumnName="ISN_SERVICO" />
+          <ScalarProperty Name="VLR_ATUALIZADO_CAUSA" ColumnName="VLR_ATUALIZADO_CAUSA" />
+          <ScalarProperty Name="ISN_GRUPO_PROCESSO" ColumnName="ISN_GRUPO_PROCESSO" />
+          <ScalarProperty Name="ISN_PROCESSO_PAI" ColumnName="ISN_PROCESSO_PAI" />
+          <ScalarProperty Name="ISN_CONTRATO" ColumnName="ISN_CONTRATO" />
+          <ScalarProperty Name="DSC_PARECER" ColumnName="DSC_PARECER" />
+          <ScalarProperty Name="ISN_PESSOA_CLIENTE" ColumnName="ISN_PESSOA_CLIENTE" />
+          <ScalarProperty Name="COD_EXTERNO" ColumnName="COD_EXTERNO" />
+          <ScalarProperty Name="NUM_SEQUENCIAL" ColumnName="NUM_SEQUENCIAL" />
+          <ScalarProperty Name="COD_BARRA" ColumnName="COD_BARRA" />
+          <ScalarProperty Name="COD_PROCESSO" ColumnName="COD_PROCESSO" />
+          <ScalarProperty Name="DAT_FASE" ColumnName="DAT_FASE" />
+          <ScalarProperty Name="ISN_TIPO_RESULTADO" ColumnName="ISN_TIPO_RESULTADO" />
+          <ScalarProperty Name="VLR_FINAL_CAUSA" ColumnName="VLR_FINAL_CAUSA" />
+          <ScalarProperty Name="VLR_PROVISIONADO" ColumnName="VLR_PROVISIONADO" />
+          <ScalarProperty Name="ISN_TIPO_RISCO" ColumnName="ISN_TIPO_RISCO" />
+          <ScalarProperty Name="ISN_FASE" ColumnName="ISN_FASE" />
+          <ScalarProperty Name="ISN_PROBABILIDADE_PERDA" ColumnName="ISN_PROBABILIDADE_PERDA" />
+          <ScalarProperty Name="ISN_PESSOA_PRIORIDADE" ColumnName="ISN_PESSOA_PRIORIDADE" />
+          <ScalarProperty Name="ISN_MATERIA" ColumnName="ISN_MATERIA" />
+          <ScalarProperty Name="DSC_OBSERVACAO_001" ColumnName="DSC_OBSERVACAO_001" />
+          <ScalarProperty Name="ISN_REFERENCIA" ColumnName="ISN_REFERENCIA" />
+          <ScalarProperty Name="TIP_INDICE" ColumnName="TIP_INDICE" />
+          <ScalarProperty Name="TIP_EXPRESSAO" ColumnName="TIP_EXPRESSAO" />
+          <ScalarProperty Name="PCT_TAXA" ColumnName="PCT_TAXA" />
+          <ScalarProperty Name="ISN_INDICE_FINANCEIRO" ColumnName="ISN_INDICE_FINANCEIRO" />
+          <ScalarProperty Name="DSC_CONTA_CONTABIL" ColumnName="DSC_CONTA_CONTABIL" />
+          <ScalarProperty Name="STA_CONTABIL" ColumnName="STA_CONTABIL" />
+          <ScalarProperty Name="STA_PROCESSO" ColumnName="STA_PROCESSO" />
+          <ScalarProperty Name="PCT_RISCO" ColumnName="PCT_RISCO" />
+          <ScalarProperty Name="VLR_CAUSA" ColumnName="VLR_CAUSA" />
+          <ScalarProperty Name="DSC_OBJETO" ColumnName="DSC_OBJETO" />
+          <ScalarProperty Name="NOM_PROCESSO" ColumnName="NOM_PROCESSO" />
+          <ScalarProperty Name="NUM_PASTA" ColumnName="NUM_PASTA" />
+          <ScalarProperty Name="ISN_NATUREZA" ColumnName="ISN_NATUREZA" />
+          <ScalarProperty Name="ISN_RITO" ColumnName="ISN_RITO" />
+          <ScalarProperty Name="ISN_EMPRESA" ColumnName="ISN_EMPRESA" />
+          <ScalarProperty Name="ISN_PROBABILIDADE" ColumnName="ISN_PROBABILIDADE" />
+          <ScalarProperty Name="ISN_ACAO" ColumnName="ISN_ACAO" />
+          <ScalarProperty Name="ISN_PROCESSO" ColumnName="ISN_PROCESSO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GPE_GRUPO_PESSOA">
+      <EntityTypeMapping TypeName="Model1.GPE_GRUPO_PESSOA">
+        <MappingFragment StoreEntitySet="GPE_GRUPO_PESSOA">
+          <ScalarProperty Name="TIP_STATUS" ColumnName="TIP_STATUS" />
+          <ScalarProperty Name="COD_EXTERNO" ColumnName="COD_EXTERNO" />
+          <ScalarProperty Name="ISN_EMPRESA" ColumnName="ISN_EMPRESA" />
+          <ScalarProperty Name="NOM_GRUPO_PESSOA" ColumnName="NOM_GRUPO_PESSOA" />
+          <ScalarProperty Name="ISN_GRUPO_PESSOA" ColumnName="ISN_GRUPO_PESSOA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS">
+      <EntityTypeMapping TypeName="Model1.DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS">
+        <MappingFragment StoreEntitySet="DPA_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS">
+          <ScalarProperty Name="TIP_DIA_DISPONIBILIDADE_ANALYTICS" ColumnName="TIP_DIA_DISPONIBILIDADE_ANALYTICS" />
+          <ScalarProperty Name="ISN_PARAMETRO_DISPONIBILIDADE_ANALYTICS" ColumnName="ISN_PARAMETRO_DISPONIBILIDADE_ANALYTICS" />
+          <ScalarProperty Name="ISN_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS" ColumnName="ISN_DETALHE_PARAMETRO_DISPONIBILIDADE_ANALYTICS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS">
+      <EntityTypeMapping TypeName="Model1.PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS">
+        <MappingFragment StoreEntitySet="PDA_PARAMETRO_DISPONIBILIDADE_ANALYTICS">
+          <ScalarProperty Name="HOR_INICIO_DISPONIBILIDADE" ColumnName="HOR_INICIO_DISPONIBILIDADE" />
+          <ScalarProperty Name="HOR_PAUSA_DISPONIBILIDADE" ColumnName="HOR_PAUSA_DISPONIBILIDADE" />
+          <ScalarProperty Name="ISN_PARAMETRO_DISPONIBILIDADE_ANALYTICS" ColumnName="ISN_PARAMETRO_DISPONIBILIDADE_ANALYTICS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
